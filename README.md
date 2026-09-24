@@ -39,11 +39,28 @@ Two findings from that programme shape everything in here:
 
 ## Using it with an AI coding agent
 
-Drop the directory into your agent's skills location (for Claude Code:
-`.claude/skills/arc-agi3-experiment/`). The agent will load it when you ask for help
-designing or running an ARC-AGI-3 experiment.
+**Claude Code** — copy the folder into your skills directory, then just ask for help
+designing or running an experiment; it loads itself when relevant.
 
-It works just as well read by a human.
+```bash
+git clone https://github.com/Goutham-Eda/arc-agi3-experiment.git
+mkdir -p ~/.claude/skills                                  # all your projects
+cp -r arc-agi3-experiment ~/.claude/skills/
+# or, for one project only:  mkdir -p .claude/skills && cp -r arc-agi3-experiment .claude/skills/
+```
+
+**Codex, or any agent that reads `AGENTS.md`** — clone the repository and work inside
+it, or copy `AGENTS.md`, `SKILL.md`, `references/` and `templates/` into your own
+project. `AGENTS.md` carries the rules that should override an agent's defaults.
+
+**Genesis** — adopt this repository, or your own experiment repository built from it:
+
+```bash
+genesis adopt .          # read the discovery report first
+genesis adopt . --write  # only after you have accepted it
+```
+
+It works just as well read by a human with no agent at all.
 
 ## Getting the games
 
