@@ -1,0 +1,8 @@
+# This repository is method and templates only.
+# Competition data is not redistributable and must never be committed.
+environment_files/
+*.zip
+.venv/
+__pycache__/
+*.pyc
+.env
