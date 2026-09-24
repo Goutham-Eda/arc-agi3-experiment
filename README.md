@@ -26,6 +26,8 @@ Two findings from that programme shape everything in here:
 
 ## Start here
 
+- **`run_local.py`** — run the baseline on your own machine, offline, on CPU. This is
+  the day-one gate. Start by making it pass.
 - **`SKILL.md`** — the process, end to end.
 - **`references/setup.md`** — install, get the games, and pass the day-one gate.
 - **`references/hardware-tiers.md`** — what you can actually answer on a laptop.

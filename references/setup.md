@@ -34,11 +34,19 @@ visible to you and is not part of local experimentation.
 
 ## 3. The day-one gate
 
-Before you are assigned an experiment, prove your environment is correct. Run a plain
-random policy over the public games and check that you reproduce a random floor: a
-very small number of level clears, and a score near zero.
+Before you are assigned an experiment, prove your environment is correct:
 
-What you are checking for:
+```bash
+python run_local.py --games 3 --episodes 3 --max-actions 80    # about a minute
+python run_local.py --games 0 --episodes 4 --max-actions 300   # all 25 games
+```
+
+`run_local.py` plays the public games with random action selection plus dead-action
+pruning, fully offline, on CPU. It prints a gate report at the end. A reference run of
+the full sweep cleared **9 levels across 100 episodes (0.09 per episode)** — if you are
+far above that, suspect your setup rather than your luck.
+
+What the gate checks:
 
 - **The runner finds the games.** If `environment_files` is not found, `ARC_ENV_DIR` is
   wrong.
