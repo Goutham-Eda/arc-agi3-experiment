@@ -25,12 +25,22 @@ see. Differences you did not intend to create usually show up here.
 the dense metrics from `setup.md`. Declare them now, so you cannot go hunting after the
 run for the metric that happens to look good.
 
+> This field decided a verdict here. Object-targeted clicking improved the efficiency
+> score but not levels cleared. Because levels cleared was the declared primary, the
+> experiment was recorded as **falsified** — and the efficiency gain was reported next
+> to it as a real secondary effect. Had the primary been chosen after the run, the same
+> numbers would have been written up as a success.
+
 **6. Action budget, seed plan, and game split.** Budgets matched across conditions.
 Seeds fixed and recorded. State which games are tune and which are held-out, and use a
 fresh seed block if these games have been used before.
 
-**7. Predeclared success criterion.** A number, decided now. "Beats the control on
-levels cleared across held-out games, outside the control's seed range."
+**7. Predeclared success criterion.** A number and a test, decided now. State the
+statistic (a paired sign test across seeds is the default here), the threshold, and
+whether the **concentration rule** must hold — that the result survives removing the
+largest-gain game and that at least two games improve. See
+`split-and-verdicts.md`. Writing the concentration requirement in now is what stops a
+single lucky game from being written up as a method later.
 
 **8. Falsifier and stopping rule.** What result makes you stop, and at which stage. A
 tune-stage stopping rule is the most valuable thing in this document — it is what lets
@@ -58,6 +68,11 @@ work is legitimate and should be labelled, not smuggled in as a finding.
 - **Measure mechanics discovery and plan quality where relevant, not only clears.** A
   method can understand more and still clear nothing.
 - **Prefer the cheapest experiment that can falsify the hypothesis.**
+- **A preregistered experiment may be deferred rather than run**, if the design turns
+  out to be infeasible — too few events to measure, or a predicate you cannot write
+  honestly. Record the deferral and the reason underneath the preregistration. That is
+  a result about the design, and it is cheaper than a run that could not have answered
+  anything.
 - **Define how instruction-following will be measured** whenever the experiment needs
   structured output from a model. In this project's runs, two thirds of replies ignored
   a required label — without measuring that, the result would have been read as a

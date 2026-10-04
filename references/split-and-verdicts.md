@@ -46,6 +46,38 @@ but does not remove — the bias from reusing held-out games across many experim
 Treat that reuse as a known open weakness and say so in the write-up. The only fully
 fresh test is the hidden set, which you get at most a couple of shots at.
 
+## The concentration rule
+
+A pass on the aggregate is not enough. Before a result is recorded as supported, it
+must also survive **removing the game with the largest gain**, and **at least two games
+must improve**. A result that passes significance but fails this is recorded as
+**"narrow: carried by `<game>`"** — reported honestly, never built on.
+
+This rule is the formalisation of the per-game lesson below, and it has done real work
+here. Two experiments passed their aggregate test and were filed as narrow, carried by
+a single game. One passed with six games improving, and that is the only broad positive
+result in the register.
+
+The test used alongside it is a **paired, one-sided exact sign test across seeds**, on
+the per-seed difference in levels cleared, ties dropped, p < 0.05. Where two action
+budgets are both tested, apply a **Holm correction** across them — otherwise two
+budgets are two chances at the same hypothesis.
+
+**One surviving delta is a candidate, not a result.** A positive at a small seed count
+gets re-run at a larger one, on fresh seeds, before anything is built on top of it. The
+broad positive here was confirmed at 40 fresh seeds after first appearing at 20.
+
+## Diagnosis makes a game adaptive
+
+When a method loses on a held-out game and you investigate *why* on that game, you have
+looked at held-out data. Any later test on that game is now **adaptive**, and the
+write-up has to say so. Two of this project's held-out games were diagnosed this way —
+one loss was then fixed narrowly, the other accepted as a limit of the method.
+
+Diagnosis is still worth doing; the losses are where the next hypothesis comes from.
+But it spends the game. After that, **the hidden set is the only genuinely unseen
+test**, and you get very few shots at it.
+
 ## Reading a result
 
 - **Report per-game outcomes next to the aggregate.** Always. In this project a

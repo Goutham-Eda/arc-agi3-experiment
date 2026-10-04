@@ -12,17 +12,24 @@ method, the templates, and the hard-won list of things that go wrong.
 ## Why it exists
 
 The fastest way to produce a worthless result on this benchmark is to run something,
-see a good number, and decide afterwards what it meant. A research programme that ran
-five experiments here produced five negative or abandoned results — and the record is
-useful precisely because each one had its falsifier written down first.
+see a good number, and decide afterwards what it meant. A research programme has run
+twelve preregistered experiments here. **One produced a broad positive result.** The
+rest were negative, narrow, or abandoned — and the record is useful precisely because
+each one had its falsifier written down first.
 
-Two findings from that programme shape everything in here:
+Three findings from that programme shape everything in here:
 
-1. **The baseline to beat costs nothing.** Random action selection with dead-action
-   pruning — no model at all — is competitive with everything a frozen small model was
-   able to do. Any new capability has to beat it.
+1. **The baselines to beat cost nothing, and there are two.** Random action selection
+   with dead-action pruning is the floor, and it is competitive with everything a frozen
+   small model managed. A within-episode bandit over action classes is the bar, and it
+   roughly doubled the hidden-set score without any model at all. Beat the floor to
+   exist; beat the bar to matter.
 2. **An aggregate can be a lie.** A doubled level-clear count turned out to come almost
-   entirely from one level of one game. Report per-game outcomes, always.
+   entirely from one level of one game. Report per-game outcomes, always — and make the
+   concentration rule part of the preregistration, not of the post-mortem.
+3. **Structured exploration was the scarce resource, not per-move judgement.**
+   Everything that helped was a way of not wasting moves. Nothing that helped required
+   the model to understand the game.
 
 ## Start here
 
@@ -36,6 +43,10 @@ Two findings from that programme shape everything in here:
 - **`references/split-and-verdicts.md`** — tune vs held-out, the stages, reading a result.
 - **`references/safeguards.md`** — the bugs that faked results here, and how to catch them.
 - **`templates/`** — fill-in preregistration and result forms.
+- **`case-study/`** — the actual research record this method came out of: twelve
+  preregistered experiments, their verdicts and corrections, the decision and gate
+  records, and the raw run reports. No agent source and no competition data; the
+  reasons are in `case-study/README.md`.
 
 ## Using it with an AI coding agent
 
