@@ -24,6 +24,12 @@ Three findings from that programme shape everything in here:
    small model managed. A within-episode bandit over action classes is the bar, and it
    roughly doubled the hidden-set score without any model at all. Beat the floor to
    exist; beat the bar to matter.
+
+   On the 110 hidden games the ladder reads **0.07 → 0.07 → 0.15 → 0.15**: plain random,
+   then dead-action pruning (no transfer), then the bandit, then the bandit plus a
+   per-screen death memory (no further gain). A uniform-arms control at a matched budget
+   scored 0.12, which is the only reason the bandit's share of the gain can be put at
+   about +0.03 rather than guessed at.
 2. **An aggregate can be a lie.** A doubled level-clear count turned out to come almost
    entirely from one level of one game. Report per-game outcomes, always — and make the
    concentration rule part of the preregistration, not of the post-mortem.
@@ -47,6 +53,10 @@ Three findings from that programme shape everything in here:
   preregistered experiments, their verdicts and corrections, the decision and gate
   records, and the raw run reports. No agent source and no competition data; the
   reasons are in `case-study/README.md`.
+- **`peers_info/`** — the same material written to be read rather than searched: 18
+  documents in reading order, from setup through results and method to how the
+  hypotheses were derived. Start at `peers_info/README.md`. If you are joining the work
+  rather than studying it, start here instead of the case study.
 
 ## Using it with an AI coding agent
 
@@ -85,6 +95,14 @@ code sharing outside your own officially merged team is prohibited; public shari
 go on the competition's own forum or notebooks under an OSI-approved licence. This
 repository stays free of competition code so that it can be shared without any of that
 applying.
+
+That is why the agent source is not here, and it is worth saying where it is instead.
+The **floor** policy — random with dead-action pruning — is published as a Kaggle
+notebook, which is the sanctioned channel:
+<https://www.kaggle.com/code/goutham12/arc-agi-3-build-3-random-prune>. `run_local.py`
+in this repository runs the same policy offline. The bandit that set the bar is **not**
+published anywhere while the competition is open; it is described in
+`case-study/experiment-register.md` and cannot be rebuilt from this repository.
 
 ## Licence
 
