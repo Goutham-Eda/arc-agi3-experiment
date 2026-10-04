@@ -1,0 +1,13 @@
+{
+  "task": "T-E11a",
+  "gate": "independent-review",
+  "kind": "review",
+  "attempt": "08c29001-6215-4130-a9da-cbd102fdead3",
+  "human": "Goutham",
+  "reason": "Reviewed diff 0f16d7d..7d20f00 (object-click bandit, checks, E11 register amendments); verdict FALSIFIED matches e11_*.json via --e11-verdict",
+  "observed_at": "2026-10-01T08:05:05.164Z",
+  "source_hash": "e825e3eaba6cae0d64426aed88a584129900fb825d03971a1a7f8f5a59eb900a",
+  "config_hash": "e552c764c406d9a96fe06c0910ba5b83a6fd68a99b7ea317b2fe607890f9a558",
+  "reviewed_proofs": "7ac7ec73bb596db3dc46dc11e26d4e11bf4158470384d470081ee9572bb2f114",
+  "hash": "cb7f9dda1d2a7a294a2a30d6298c4d00c53963544a380bc752f4673b87b20c3b"
+}

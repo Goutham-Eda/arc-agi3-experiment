@@ -1,0 +1,30 @@
+{
+  "task": "T-E0c",
+  "gate": "build-gemma",
+  "kind": "command",
+  "attempt": "0c22bded-9761-47ca-9c1c-8645b598678c",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_kernel.py --username goutham12 --slug arc-agi-3-e0-gemma4-e4b --model-source google/gemma-4/transformers/gemma-4-e4b-it/1 --split heldout --episodes 5 --max-actions 80 --check",
+  "started_at": "2026-09-11T21:14:11.628Z",
+  "observed_at": "2026-09-11T21:14:15.620Z",
+  "exit_code": 1,
+  "signal": null,
+  "stdout": "",
+  "stderr": "  File \"C:\\Goutham\\AI_Sprint\\portfolio_projects\\project_arc_agi_3\\experiments\\e0_kernel.py\", line 191\r\n    assert set(games) <= set(split[\"tune\"]) or games == sorted(split[\"heldout\"]), \\n        \"games must be tune games or the complete held-out split, never a partial held-out peek\"\r\n                                                                                   ^\r\nSyntaxError: unexpected character after line continuation character\r\n",
+  "failure": "command-failed",
+  "receipt": null,
+  "revision": {
+    "commit": "8fdc9c1feac79ed9699b51c9747984fe8df88902",
+    "dirty": true
+  },
+  "source_hash": "b8cb3e10965cca118f5331913f2c8532fb06229890eb2a8f5030be957b917eac",
+  "before_hash": "b8cb3e10965cca118f5331913f2c8532fb06229890eb2a8f5030be957b917eac",
+  "config_hash": "7b49c7a1fc5a193022d154686a8857845dfbc1ca4ed594d06e4e0beff1209d4f",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "4a51bbc3a224a345eea2a45a14c71f0fbe01f51c59a9e3c17eea3d94024444d8"
+}

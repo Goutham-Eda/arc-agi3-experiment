@@ -1,0 +1,13 @@
+{
+  "task": "T-E1b",
+  "gate": "independent-review",
+  "kind": "review",
+  "attempt": "0cfabeee-0136-4552-99d1-ed121d4813b1",
+  "human": "Goutham",
+  "reason": "Reviewed E1 held-out verdict amendment",
+  "observed_at": "2026-09-17T05:32:50.608Z",
+  "source_hash": "c6b00747bf25a966651072a49d5da1060652dc1fbf8ba5a9df4706c7b8698079",
+  "config_hash": "c9861f9f39e3871b806ba60834b7aedb24d8fc4c8803c1341f118d13b3ee1b7f",
+  "reviewed_proofs": "e7fd8c6105986150ec1d973d95ff33acac8cd97cd37e86b44ddd62fb189eb9ac",
+  "hash": "c5670813564a6463021f031fb42fd3bce59d27efc3253861e766cf5fb8c9f146"
+}

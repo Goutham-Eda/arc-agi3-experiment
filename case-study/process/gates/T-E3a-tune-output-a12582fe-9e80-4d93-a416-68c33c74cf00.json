@@ -1,0 +1,30 @@
+{
+  "task": "T-E3a",
+  "gate": "tune-output",
+  "kind": "command",
+  "attempt": "a12582fe-9e80-4d93-a416-68c33c74cf00",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_kernel.py --verify-output experiments/build/e3-out-tune-e4b --cells labels-on labels-off",
+  "started_at": "2026-09-18T19:22:51.295Z",
+  "observed_at": "2026-09-18T19:23:02.488Z",
+  "exit_code": 1,
+  "signal": null,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Goutham\\AI_Sprint\\portfolio_projects\\project_arc_agi_3\\experiments\\e0_kernel.py\", line 324, in <module>\r\n    raise SystemExit(main())\r\n                     ~~~~^^\r\n  File \"C:\\Goutham\\AI_Sprint\\portfolio_projects\\project_arc_agi_3\\experiments\\e0_kernel.py\", line 306, in main\r\n    verify_output(a.verify_output, a.cells)\r\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Goutham\\AI_Sprint\\portfolio_projects\\project_arc_agi_3\\experiments\\e0_kernel.py\", line 253, in verify_output\r\n    run = json.loads((out / \"e0_run.json\").read_text(encoding=\"utf-8\"))\r\n                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\\Lib\\pathlib\\_local.py\", line 546, in read_text\r\n    return PathBase.read_text(self, encoding, errors, newline)\r\n           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\\Lib\\pathlib\\_abc.py\", line 632, in read_text\r\n    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:\r\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\\Lib\\pathlib\\_local.py\", line 537, in open\r\n    return io.open(self, mode, buffering, encoding, errors, newline)\r\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nFileNotFoundError: [Errno 2] No such file or directory: 'experiments\\\\build\\\\e3-out-tune-e4b\\\\e0_run.json'\r\n",
+  "failure": "command-failed",
+  "receipt": null,
+  "revision": {
+    "commit": "9c046a76a494f30382069942db08630bd822c5d4",
+    "dirty": true
+  },
+  "source_hash": "5650728bfa2e68fb9e5e163a0b7001fe1ca44a6b65b2b69449800adf8a98445c",
+  "before_hash": "5650728bfa2e68fb9e5e163a0b7001fe1ca44a6b65b2b69449800adf8a98445c",
+  "config_hash": "73a59995821cbd75856062c8b6d2604ee3e647286163e7a9445508d2469d4d90",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "442edb6c2cc9d46dd954a0b9f0fb8525aa889760441a8a07e3982d53fad3c28c"
+}

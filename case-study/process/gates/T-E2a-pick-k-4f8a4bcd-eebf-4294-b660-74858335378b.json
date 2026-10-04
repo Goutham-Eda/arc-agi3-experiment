@@ -1,0 +1,30 @@
+{
+  "task": "T-E2a",
+  "gate": "pick-k",
+  "kind": "command",
+  "attempt": "4f8a4bcd-eebf-4294-b660-74858335378b",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_analyze.py --pick-k experiments/build/e2-out-tune-e4b",
+  "started_at": "2026-09-17T12:07:49.540Z",
+  "observed_at": "2026-09-17T12:08:06.834Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "k=5   dead-move rate probe 0.344 [0.361, 0.339, 0.333]  match 0.284 [0.29, 0.29, 0.274]  margin -0.060  match range 0.016  no\r\nk=10  dead-move rate probe 0.321 [0.319, 0.323, 0.32]  match 0.303 [0.321, 0.279, 0.31]  margin -0.018  match range 0.042  no\r\nk=20  dead-move rate probe 0.333 [0.342, 0.331, 0.325]  match 0.293 [0.316, 0.282, 0.28]  margin -0.040  match range 0.036  no\r\npick-k: abandon E2 - no k separates from its matched control\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "6c83e0af33476e5bad834505ce9ecfa925e19a0b",
+    "dirty": true
+  },
+  "source_hash": "6cd903c454d763f617172a6cae9c133f1a07530f57c6a2695dcc8c93d84b3c58",
+  "before_hash": "6cd903c454d763f617172a6cae9c133f1a07530f57c6a2695dcc8c93d84b3c58",
+  "config_hash": "40d722118bfb8351d3334c5f16c160087578256a74a8de70743590cd0e03d05e",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "ca625f4c9017df2ee5b9202905176eeccd318556bf83bd37e6bb22ce5e47082f"
+}

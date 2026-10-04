@@ -1,0 +1,30 @@
+{
+  "task": "T-E0c",
+  "gate": "build-gemma",
+  "kind": "command",
+  "attempt": "85c7b716-d41a-466e-b3b2-a82e47446230",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_kernel.py --username goutham12 --slug arc-agi-3-e0-gemma4-e4b --model-source google/gemma-4/transformers/gemma-4-e4b-it/1 --split heldout --episodes 5 --max-actions 80 --check",
+  "started_at": "2026-09-12T11:08:09.971Z",
+  "observed_at": "2026-09-12T11:08:16.684Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "built C:\\Goutham\\AI_Sprint\\portfolio_projects\\project_arc_agi_3\\experiments\\build\\arc-agi-3-e0-gemma4-e4b\r\ncheck ok: arc-agi-3-e0-gemma4-e4b (4 files, games ['ar25', 'bp35', 'cd82', 'cn04', 'g50t', 'ka59', 'lf52', 'lp85', 'm0r0', 'r11l', 're86', 'sb26', 'sp80', 'su15', 'tr87', 'vc33', 'wa30'])\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "e6fb0c0c4e4f054c5c47bb18cf4f99afcec9627f",
+    "dirty": true
+  },
+  "source_hash": "731edddf43cc9c888bba4370830dcb1078aa1381fc273ed65331b14f62cfa74c",
+  "before_hash": "731edddf43cc9c888bba4370830dcb1078aa1381fc273ed65331b14f62cfa74c",
+  "config_hash": "7b49c7a1fc5a193022d154686a8857845dfbc1ca4ed594d06e4e0beff1209d4f",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "7cc4aede5422598fa49d98a4658f2393a58ac32c026eb99f26bd0b79e17b172b"
+}

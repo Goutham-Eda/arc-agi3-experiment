@@ -1,0 +1,30 @@
+{
+  "task": "T-B2",
+  "gate": "rehearse",
+  "kind": "command",
+  "attempt": "34d1ec5e-03c7-4b27-bf8b-f1d83c3481cb",
+  "command": ".venv/Scripts/python.exe submission/rehearse.py --games ls20,r11l",
+  "started_at": "2026-09-11T18:56:28.295Z",
+  "observed_at": "2026-09-11T18:56:37.245Z",
+  "exit_code": 1,
+  "signal": null,
+  "stdout": "",
+  "stderr": "'.venv' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+  "failure": "command-failed",
+  "receipt": null,
+  "revision": {
+    "commit": "d986666575c0c3d9fe9060c5057df6a387ac3fa3",
+    "dirty": true
+  },
+  "source_hash": "dfaea0c4afec4a57d1e5a6b7e7fbd9d8ba7528d3c11f5e741c9be402f7c9544e",
+  "before_hash": "dfaea0c4afec4a57d1e5a6b7e7fbd9d8ba7528d3c11f5e741c9be402f7c9544e",
+  "config_hash": "21be6a383ddf68aa14bbe1ab08d69234d3e17ff9021a7c0ba376e8485f1681eb",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "afff2c8bf14f6ed55d25b644d209f60d2759c280bda4e4dcc8bb85ca5411ac1d"
+}

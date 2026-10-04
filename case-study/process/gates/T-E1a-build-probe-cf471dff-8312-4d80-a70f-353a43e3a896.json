@@ -1,0 +1,30 @@
+{
+  "task": "T-E1a",
+  "gate": "build-probe",
+  "kind": "command",
+  "attempt": "cf471dff-8312-4d80-a70f-353a43e3a896",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_kernel.py --username goutham12 --slug arc-agi-3-e1-probe-e4b --games dc22 sc25 tu93 --episodes 1 --max-actions 80 --cells off-off on-off off-on on-on --check",
+  "started_at": "2026-09-16T16:00:02.440Z",
+  "observed_at": "2026-09-16T16:00:10.682Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "built C:\\Goutham\\AI_Sprint\\portfolio_projects\\project_arc_agi_3\\experiments\\build\\arc-agi-3-e1-probe-e4b\r\ncheck ok: arc-agi-3-e1-probe-e4b (4 files, games ['dc22', 'sc25', 'tu93'], cells ['off-off', 'on-off', 'off-on', 'on-on'])\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "0ce7ce2a2a6220f50f0468c142954e1072453b0d",
+    "dirty": true
+  },
+  "source_hash": "985259856a44dafb9d2e2741bd67f976487bd55f4ef4e45bcb6285af36224f35",
+  "before_hash": "985259856a44dafb9d2e2741bd67f976487bd55f4ef4e45bcb6285af36224f35",
+  "config_hash": "c2cf667bbb6f5a094c9b9dff1e4b59880b591d413fcb609028af44213b76c093",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "580879ea92511c8d21ed3e59e48a2e6d6853fb78be8c86841a7dab1773de0760"
+}

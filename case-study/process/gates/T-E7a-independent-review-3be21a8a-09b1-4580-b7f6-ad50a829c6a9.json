@@ -1,0 +1,13 @@
+{
+  "task": "T-E7a",
+  "gate": "independent-review",
+  "kind": "review",
+  "attempt": "3be21a8a-09b1-4580-b7f6-ad50a829c6a9",
+  "human": "Goutham",
+  "reason": "Reviewed diff 8f449bb..f18757b and the E7 register amendments; verdict NARROW at 300 (lf52), 1000 reported not decisive, matches e7_*.json via --e7-verdict",
+  "observed_at": "2026-09-30T03:14:22.306Z",
+  "source_hash": "1badb3c2b5f4da4563f3a388b457c8d68570e60a12303fa16c01a8e1bb0bc351",
+  "config_hash": "99f9e5a7081460ebbe0131c6c24afd9ae42ab0e75cf0f9b637531b9f329675a6",
+  "reviewed_proofs": "d47c58d3cce1442c086da028e9caf9de9c647210c99b06b81f8c206e79c4a206",
+  "hash": "361d5e324909b5cb04972c9e50ec8c7428ef6420893a51a1775ae940746fc8d2"
+}

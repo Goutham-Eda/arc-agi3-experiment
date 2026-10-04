@@ -1,0 +1,30 @@
+{
+  "task": "T-E7a",
+  "gate": "e7-verdict",
+  "kind": "command",
+  "attempt": "f0decc45-7394-4e0f-96bf-a3bb56b4d65b",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_analyze.py --e7-verdict experiments",
+  "started_at": "2026-09-29T19:39:32.168Z",
+  "observed_at": "2026-09-29T19:39:54.984Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "\r\n300 actions, 17 held-out games x 20 seeds (episodes 100-119)\r\n  uniform verdict clears  60  RHAE verdict 0.0840  RHAE all 0.1773  r11l clears 19  measured dead rate 0.306  masked states/100  55.4  fallbacks 1529\r\n  ucb    verdict clears  71  RHAE verdict 0.1324  RHAE all 0.2686  r11l clears 20  measured dead rate 0.175  masked states/100  68.6  fallbacks 1165\r\n  A      verdict clears  57  RHAE verdict 0.1122  RHAE all 0.1473  r11l clears 10  measured dead rate 0.209  masked states/100  59.2\r\n  L      verdict clears  57  RHAE verdict 0.0858  RHAE all 0.1771  r11l clears 19  measured dead rate 0.312  masked states/100  55.9\r\n  per game (all 17): A' clears, B clears, A clears, L clears, B's two most-pulled arms (share)\r\n    ar25    0   0   0   0  [('k/2', 0.16), ('k/4', 0.15)]\r\n    bp35    0   0   0   0  [('c/6/14', 0.19), ('k/3', 0.18)]\r\n    cd82    4   0   1   3  [('k/5', 0.17), ('k/4', 0.13)]\r\n    cn04    0   0   1   0  [('c/6/8', 0.13), ('c/6/12', 0.13)]\r\n    g50t    0   0   0   0  [('k/4', 0.26), ('k/5', 0.25)]\r\n    ka59    0   0   0   0  [('k/3', 0.18), ('k/4', 0.17)]\r\n    lf52    0  14   0   1  [('c/6/14', 0.12), ('c/6/11', 0.1)]\r\n    lp85   21  25  20  20  [('c/6/8', 0.67), ('c/6/14', 0.08)]\r\n    m0r0    0   4   0   0  [('k/1', 0.21), ('k/2', 0.18)]\r\n    r11l   19  20  10  19  [('c/6/3', 0.14), ('c/6/1', 0.13)]  (outside verdict)\r\n    re86    0   0   0   0  [('k/5', 0.2), ('k/2', 0.2)]\r\n    sb26    0   0   0   0  [('k/5', 0.32), ('c/6/9', 0.11)]\r\n    sp80   14   5  15  12  [('k/2', 0.14), ('k/4', 0.13)]\r\n    su15    0   0   0   0  [('c/6/5', 0.24), ('c/6/3', 0.22)]\r\n    tr87    0   0   0   0  [('k/1', 0.27), ('k/3', 0.27)]\r\n    vc33   21  23  20  21  [('c/6/14', 0.26), ('c/6/9', 0.25)]\r\n    wa30    0   0   0   0  [('k/2', 0.24), ('k/4', 0.24)]\r\n  per-seed difference (B - A'): [1, 2, 1, -1, 0, 0, -2, 0, 1, 1, 1, 0, 0, 1, 2, -1, 2, 1, 1, 1]\r\n  sign test: 12 wins, 3 losses, 5 ties, one-sided p = 0.0176\r\n  concentration: largest gain lf52 (+14); without it p = 0.8062, totals 57 vs 60; games improved ['lf52', 'lp85', 'm0r0', 'vc33']\r\n  secondary, A' vs A: clears 60 vs 57, p = 0.3770, concentrated True\r\n  secondary, B vs L: clears 71 vs 57, p = 0.0384, concentrated True\r\n  E7 at 300 (PRIMARY): NARROW: carried by lf52\r\n\r\n1000 actions, 17 held-out games x 20 seeds (episodes 100-119)\r\n  uniform verdict clears  82  RHAE verdict 0.0879  RHAE all 0.1810  r11l clears 20  measured dead rate 0.302  masked states/100  51.5  fallbacks 9104\r\n  ucb    verdict clears 117  RHAE verdict 0.1592  RHAE all 0.2939  r11l clears 20  measured dead rate 0.144  masked states/100  66.7  fallbacks 4910\r\n  A      verdict clears  74  RHAE verdict 0.1143  RHAE all 0.1494  r11l clears 17  measured dead rate 0.197  masked states/100  51.5\r\n  L      verdict clears  80  RHAE verdict 0.0909  RHAE all 0.1819  r11l clears 20  measured dead rate 0.307  masked states/100  52.1\r\n  per game (all 17): A' clears, B clears, A clears, L clears, B's two most-pulled arms (share)\r\n    ar25    1   4   1   0  [('k/2', 0.17), ('k/4', 0.17)]\r\n    bp35    0   2   0   0  [('c/6/14', 0.2), ('k/4', 0.19)]\r\n    cd82   10   2   5   8  [('k/5', 0.21), ('k/4', 0.15)]\r\n    cn04    0   0   1   1  [('c/6/8', 0.16), ('c/6/12', 0.13)]\r\n    g50t    0   0   0   0  [('k/4', 0.34), ('k/2', 0.25)]\r\n    ka59    0   0   0   0  [('k/3', 0.22), ('k/4', 0.2)]\r\n    lf52    4  18   0   3  [('c/6/14', 0.14), ('c/6/11', 0.12)]\r\n    lp85   23  40  20  22  [('c/6/8', 0.85), ('c/6/14', 0.04)]\r\n    m0r0    0  12   5   0  [('k/2', 0.21), ('k/1', 0.21)]\r\n    r11l   20  20  17  20  [('c/6/1', 0.15), ('c/6/3', 0.15)]  (outside verdict)\r\n    re86    0   0   0   0  [('k/5', 0.2), ('k/4', 0.2)]\r\n    sb26    0   0   0   0  [('k/5', 0.34), ('c/6/9', 0.11)]\r\n    sp80   19   7  20  20  [('k/4', 0.16), ('k/2', 0.15)]\r\n    su15    0   0   0   0  [('c/6/5', 0.39), ('c/6/9', 0.21)]\r\n    tr87    0   0   0   0  [('k/2', 0.29), ('k/3', 0.25)]\r\n    vc33   25  32  22  26  [('c/6/9', 0.33), ('c/6/14', 0.19)]\r\n    wa30    0   0   0   0  [('k/1', 0.25), ('k/3', 0.25)]\r\n  per-seed difference (B - A'): [0, 1, 3, -2, 0, 1, 1, 0, -1, 2, 5, 1, 3, 4, 3, 3, 3, 3, 2, 3]\r\n  sign test: 15 wins, 2 losses, 3 ties, one-sided p = 0.0012\r\n  concentration: largest gain lp85 (+17); without it p = 0.0384, totals 77 vs 59; games improved ['ar25', 'bp35', 'lf52', 'lp85', 'm0r0', 'vc33']\r\n  secondary, A' vs A: clears 82 vs 74, p = 0.1938, concentrated True\r\n  secondary, B vs L: clears 117 vs 80, p = 0.0007, concentrated False\r\n  E7 at 1000 (reported, not decisive): SUPPORTED\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "03894a6a8ede409b96f4b086c0505da500e0b12c",
+    "dirty": true
+  },
+  "source_hash": "1badb3c2b5f4da4563f3a388b457c8d68570e60a12303fa16c01a8e1bb0bc351",
+  "before_hash": "1badb3c2b5f4da4563f3a388b457c8d68570e60a12303fa16c01a8e1bb0bc351",
+  "config_hash": "99f9e5a7081460ebbe0131c6c24afd9ae42ab0e75cf0f9b637531b9f329675a6",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "b5e54940a7d5ee6c369eef9abe28b44e6562293e6a28667832d9cf40858b1e4b"
+}

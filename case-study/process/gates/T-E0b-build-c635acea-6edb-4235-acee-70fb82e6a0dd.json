@@ -1,0 +1,30 @@
+{
+  "task": "T-E0b",
+  "gate": "build",
+  "kind": "command",
+  "attempt": "c635acea-6edb-4235-acee-70fb82e6a0dd",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_kernel.py --username goutham12 --check",
+  "started_at": "2026-09-11T21:00:05.263Z",
+  "observed_at": "2026-09-11T21:00:07.692Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "built C:\\Goutham\\AI_Sprint\\portfolio_projects\\project_arc_agi_3\\experiments\\build\\arc-agi-3-e0-smoke\r\ncheck ok: arc-agi-3-e0-smoke (4 files, games ['ls20', 'dc22'])\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "d0b31e44f8db62f54365aa589efbb76c40a017d8",
+    "dirty": true
+  },
+  "source_hash": "9a846f01afff376c50354675e6c79344dcd783e40c55125f220078d4634089f4",
+  "before_hash": "9a846f01afff376c50354675e6c79344dcd783e40c55125f220078d4634089f4",
+  "config_hash": "f34cfd875814d1994fba9d4f3d59e3f16d0c5c2b0a0e3c602975d61440ac4336",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "dbbb7f5a6323c82e84e13080c7e02144dcc62e4edf7e444a1de07523f21a6c4f"
+}

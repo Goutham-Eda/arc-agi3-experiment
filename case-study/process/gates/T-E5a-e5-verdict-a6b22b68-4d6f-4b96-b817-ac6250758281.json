@@ -1,0 +1,30 @@
+{
+  "task": "T-E5a",
+  "gate": "e5-verdict",
+  "kind": "command",
+  "attempt": "a6b22b68-4d6f-4b96-b817-ac6250758281",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_analyze.py --e5-verdict experiments",
+  "started_at": "2026-09-29T18:36:14.503Z",
+  "observed_at": "2026-09-29T18:36:54.799Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "\r\n300 actions, 17 held-out games x 20 seeds (episodes 100-119)\r\n  prune  verdict clears  37  RHAE verdict 0.0952  RHAE all 0.1310  r11l clears 10  measured dead rate 0.257  masked states/100  58.2  redraws 82894  guard fired 358\r\n  masked verdict clears  57  RHAE verdict 0.1122  RHAE all 0.1473  r11l clears 10  measured dead rate 0.209  masked states/100  59.2  redraws 285702  guard fired 324\r\n  per game (all 17): C0 clears, T1 clears, T1 mean masked cells/step, lines masked\r\n    ar25    0   0     7.7  ['c63']\r\n    bp35    0   0    61.2  ['c1', 'c3', 'c31', 'c37', 'r63']\r\n    cd82    1   1     0.0  -\r\n    cn04    1   1     0.0  -\r\n    g50t    0   0    60.5  ['r63']\r\n    ka59    0   0     0.0  -\r\n    lf52    0   0    57.4  ['r0']\r\n    lp85   20  20     0.0  -\r\n    m0r0    0   0     0.8  ['r0', 'r63']\r\n    r11l   10  10    20.9  ['c0']  (outside verdict)\r\n    re86    0   0     0.0  -\r\n    sb26    0   0     0.0  -\r\n    sp80   15  15    55.4  ['r0', 'r63']\r\n    su15    0   0     0.0  -\r\n    tr87    0   0    59.5  ['r63']\r\n    vc33    0  20    54.4  ['r0']\r\n    wa30    0   0     0.0  -\r\n  per-seed difference (T1 - C0): [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 0, 1, 2, 0, 1]\r\n  sign test: 18 wins, 0 losses, 2 ties, one-sided p = 0.0000\r\n  concentration: largest gain vc33 (+20); without it p = 0.6875, totals 37 vs 37; games improved ['vc33']\r\n  E5 at 300 (PRIMARY): NARROW: carried by vc33\r\n\r\n1000 actions, 17 held-out games x 20 seeds (episodes 100-119)\r\n  prune  verdict clears  55  RHAE verdict 0.0972  RHAE all 0.1331  r11l clears 18  measured dead rate 0.252  masked states/100  50.7  redraws 299602  guard fired 1350\r\n  masked verdict clears  74  RHAE verdict 0.1143  RHAE all 0.1494  r11l clears 17  measured dead rate 0.197  masked states/100  51.5  redraws 1198587  guard fired 1201\r\n  per game (all 17): C0 clears, T1 clears, T1 mean masked cells/step, lines masked\r\n    ar25    2   1     7.3  ['c63']\r\n    bp35    0   0    63.6  ['c1', 'c11', 'c13', 'c15', 'c25', 'c27', 'c3', 'c31', 'c37', 'c39', 'c49', 'c5', 'c51', 'c57', 'c7', 'c9', 'r63']\r\n    cd82    5   5     0.0  -\r\n    cn04    1   1     0.0  -\r\n    g50t    0   0    62.7  ['r63']\r\n    ka59    0   0     0.0  -\r\n    lf52    0   0    58.7  ['r0']\r\n    lp85   20  20     0.0  -\r\n    m0r0    5   5     1.5  ['r0', 'r63']\r\n    r11l   18  17    28.1  ['c0']  (outside verdict)\r\n    re86    0   0     0.0  -\r\n    sb26    0   0     0.0  -\r\n    sp80   20  20    60.1  ['r0', 'r63']\r\n    su15    0   0     0.0  ['r63']\r\n    tr87    0   0    61.7  ['r63']\r\n    vc33    2  22    58.0  ['r0']\r\n    wa30    0   0     0.0  -\r\n  per-seed difference (T1 - C0): [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 0, 2, 1, 1, 1, 1, 1, 1, 1]\r\n  sign test: 17 wins, 0 losses, 3 ties, one-sided p = 0.0000\r\n  concentration: largest gain vc33 (+20); without it p = 1.0000, totals 52 vs 53; games improved ['vc33']\r\n  E5 at 1000 (reported, not decisive): NARROW: carried by vc33\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "7b96b55ca291a3df109d53d1bc9eac5a2a41eece",
+    "dirty": true
+  },
+  "source_hash": "55c89c385d0f461c3d687023155d5f6fcda6ec2ced939db9f2001369d83eee8c",
+  "before_hash": "55c89c385d0f461c3d687023155d5f6fcda6ec2ced939db9f2001369d83eee8c",
+  "config_hash": "7d8bf805873c99ed417163953c3a7d8b82e308eb7f8079cfa75bc16e7b0392f6",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "ab0ad411afbee3f9d4547685849a4bddd42a7aa873e86c2c15e21915ba07c370"
+}

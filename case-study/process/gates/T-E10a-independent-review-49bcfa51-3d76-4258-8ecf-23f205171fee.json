@@ -1,0 +1,13 @@
+{
+  "task": "T-E10a",
+  "gate": "independent-review",
+  "kind": "review",
+  "attempt": "49bcfa51-3d76-4258-8ecf-23f205171fee",
+  "human": "Goutham",
+  "reason": "Reviewed diff f3cd03c..1247e87 (death-memory bandit, checks, tune no-harm, E10 register amendments); verdict NARROW (sp80) matches e10_*.json via --e10-verdict",
+  "observed_at": "2026-09-30T14:51:09.164Z",
+  "source_hash": "55abb0b4190f4a1d5ecc1d28f3b4198297edb2b792713d7374582cca0e137736",
+  "config_hash": "d64e1da61aba836962c1d81ca50fbaf48d01c9580a4d32259cf1ef3e8390f9c8",
+  "reviewed_proofs": "6a34af2d489664e89fdd374218c5fc2063e2499124b4cc30243ec4068e69d1f2",
+  "hash": "e84e82f9f1ace5fbcd16807731852cdf0c1d5d8e7a7ee6f6678bf195d297a7b0"
+}

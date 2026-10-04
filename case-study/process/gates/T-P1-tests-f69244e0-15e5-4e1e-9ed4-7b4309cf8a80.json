@@ -1,0 +1,30 @@
+{
+  "task": "T-P1",
+  "gate": "tests",
+  "kind": "command",
+  "attempt": "f69244e0-15e5-4e1e-9ed4-7b4309cf8a80",
+  "command": ".venv\\Scripts\\python.exe -m pytest tests -q",
+  "started_at": "2026-09-18T20:58:23.989Z",
+  "observed_at": "2026-09-18T20:58:38.898Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "...................................                                      [100%]\r\n35 passed in 7.20s\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "6192645d96be0438ba441cdd52f6ba8eba24a051",
+    "dirty": true
+  },
+  "source_hash": "cd15021756db20614afcd868941fb8c53a7d01ee9d01660efe3b1f65a25bcbcf",
+  "before_hash": "cd15021756db20614afcd868941fb8c53a7d01ee9d01660efe3b1f65a25bcbcf",
+  "config_hash": "263a5704fdc2eecbc22417af80fcf5d4317f7eced3c11479e6595a07e4321055",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "2965fbdc81e7217708b5ccf0d57377d863de153226a34c16f3a59cf5f94874ae"
+}

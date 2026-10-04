@@ -1,0 +1,30 @@
+{
+  "task": "T-E0d",
+  "gate": "build-probe",
+  "kind": "command",
+  "attempt": "f336c40b-c196-4552-a6c8-2b93f199c191",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_kernel.py --username goutham12 --slug arc-agi-3-e0-probe-gemma4-31b --model-source google/gemma-4/transformers/gemma-4-31b-it/1 --games ls20 tu93 --episodes 1 --max-actions 20 --check",
+  "started_at": "2026-09-16T14:59:50.670Z",
+  "observed_at": "2026-09-16T14:59:59.254Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "built C:\\Goutham\\AI_Sprint\\portfolio_projects\\project_arc_agi_3\\experiments\\build\\arc-agi-3-e0-probe-gemma4-31b\r\ncheck ok: arc-agi-3-e0-probe-gemma4-31b (4 files, games ['ls20', 'tu93'])\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "a442eb6139e8f85b5c0d63e6758645a2465eb0b2",
+    "dirty": true
+  },
+  "source_hash": "008efe5686a8b87d0c6c73053ca1dc69466e6d2606637f240d76e995351e8f4b",
+  "before_hash": "008efe5686a8b87d0c6c73053ca1dc69466e6d2606637f240d76e995351e8f4b",
+  "config_hash": "a52f812746e1e0f3c6030bda40e1767ea30577964dc1fa6de85f6183e30f78c2",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "f78bce88b27f6aa5b31d0e5e339d6dfe6845fce60aad19527368468c8acb385b"
+}

@@ -1,0 +1,13 @@
+{
+  "task": "T-E2a",
+  "gate": "independent-review",
+  "kind": "review",
+  "attempt": "85682699-86b9-4808-9f50-b888cf9e1f3c",
+  "human": "Goutham",
+  "reason": "Reviewed E2 tune result and abandonment amendment",
+  "observed_at": "2026-09-17T14:12:04.429Z",
+  "source_hash": "6cd903c454d763f617172a6cae9c133f1a07530f57c6a2695dcc8c93d84b3c58",
+  "config_hash": "40d722118bfb8351d3334c5f16c160087578256a74a8de70743590cd0e03d05e",
+  "reviewed_proofs": "0f153cd13ac4228eadd28f5b15d4d9c0b7322c8cf6502e4fca10781fcc5140de",
+  "hash": "28975676e59ea9c1e54564e4cdf373c428f81348eb513104a68cce1ca3e8d9a0"
+}

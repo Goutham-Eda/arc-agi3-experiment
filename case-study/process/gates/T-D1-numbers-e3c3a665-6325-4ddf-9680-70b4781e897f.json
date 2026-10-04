@@ -1,0 +1,30 @@
+{
+  "task": "T-D1",
+  "gate": "numbers",
+  "kind": "command",
+  "attempt": "e3c3a665-6325-4ddf-9680-70b4781e897f",
+  "command": ".venv\\Scripts\\python.exe experiments/check_writeup.py documents/writeup/e0_e4_writeup.md",
+  "started_at": "2026-09-18T20:39:57.001Z",
+  "observed_at": "2026-09-18T20:40:08.607Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "34/34 numbers found; 0 cited paths missing\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "7da518ff2e0cc46eeef46fcefd8270f5cad03093",
+    "dirty": true
+  },
+  "source_hash": "f18d5e836b3d199547e799ffec306c75d857f4dc45bbfdd6fbe2b93958034147",
+  "before_hash": "f18d5e836b3d199547e799ffec306c75d857f4dc45bbfdd6fbe2b93958034147",
+  "config_hash": "2f180394ed3199cc17cbebdb01d792b5e3cc5d37580b4d31adfa5121255e853d",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "fcce2596453a738eaeea0391d6caecfff297a83e53c2815a889f6fe6866ed16e"
+}

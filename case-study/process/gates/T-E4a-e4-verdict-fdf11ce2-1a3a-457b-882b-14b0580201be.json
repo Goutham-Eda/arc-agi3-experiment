@@ -1,0 +1,30 @@
+{
+  "task": "T-E4a",
+  "gate": "e4-verdict",
+  "kind": "command",
+  "attempt": "fdf11ce2-1a3a-457b-882b-14b0580201be",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_analyze.py --e4-verdict experiments",
+  "started_at": "2026-09-17T15:32:06.947Z",
+  "observed_at": "2026-09-17T15:32:17.033Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "\r\n300 actions, 17 held-out games x 20 seeds\r\n  random  verdict clears  19  levels/game 0.059  RHAE verdict 0.0735  RHAE all 0.0916  states/100  71.0  r11l clears 12  dead moves 0  redraws 0  actions per clear [5, 12, 31, 34, 51, 71, 86, 91, 104, 118, 145, 166, 181, 187, 190, 219, 228, 239, 276]\r\n  prune   verdict clears  38  levels/game 0.119  RHAE verdict 0.0824  RHAE all 0.1000  states/100  73.1  r11l clears 12  dead moves 14128  redraws 78291  actions per clear [5, 12, 31, 34, 38, 41, 43, 45, 51, 64, 71, 80, 82, 86, 91, 91, 94, 97, 99, 104, 118, 120, 121, 122, 135, 145, 156, 162, 166, 174, 181, 187, 190, 218, 239, 240, 276, 288]\r\n  per-seed difference (prune - random): [1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 2, 1, 1, 1, 1, 0, 1, 1]\r\n  sign test: 18 wins, 0 losses, 2 ties, one-sided p = 0.0000\r\n  E4 at 300 (PRIMARY): SUPPORTED\r\n\r\n80 actions, 17 held-out games x 20 seeds\r\n  random  verdict clears   6  levels/game 0.019  RHAE verdict 0.0584  RHAE all 0.0745  states/100  79.2  r11l clears 4  dead moves 0  redraws 0  actions per clear [5, 12, 31, 34, 51, 71]\r\n  prune   verdict clears  12  levels/game 0.037  RHAE verdict 0.0652  RHAE all 0.0809  states/100  81.9  r11l clears 4  dead moves 3996  redraws 17594  actions per clear [5, 12, 31, 34, 38, 41, 43, 45, 51, 64, 71, 80]\r\n  per-seed difference (prune - random): [0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0]\r\n  sign test: 6 wins, 0 losses, 14 ties, one-sided p = 0.0156\r\n  E4 at 80 (reported, not decisive): SUPPORTED\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "d7c8aa8b90b862059c187c4a5fe3a960a082677f",
+    "dirty": true
+  },
+  "source_hash": "d6cadf1bedf062199c58bf6ac314b7c243f326b64a607fb77b29abd3f6669aba",
+  "before_hash": "d6cadf1bedf062199c58bf6ac314b7c243f326b64a607fb77b29abd3f6669aba",
+  "config_hash": "725cdd96290970a911b9ea752a05b2dfba0e1106d3e03c32f53c4d2bac42e08e",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "e9cc6c3440d77a5adc3148f8f89f568dac51b46b8fb332cdbabee5b98ee13a09"
+}

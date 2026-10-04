@@ -1,0 +1,13 @@
+{
+  "task": "T-E4a",
+  "gate": "independent-review",
+  "kind": "review",
+  "attempt": "bafb0802-ee32-47b3-95a7-510274ecc8c9",
+  "human": "Goutham",
+  "reason": "Reviewed E4 verdict, replay-bug fix, and E0/E1 corrections",
+  "observed_at": "2026-09-17T15:33:31.249Z",
+  "source_hash": "d6cadf1bedf062199c58bf6ac314b7c243f326b64a607fb77b29abd3f6669aba",
+  "config_hash": "725cdd96290970a911b9ea752a05b2dfba0e1106d3e03c32f53c4d2bac42e08e",
+  "reviewed_proofs": "e217c0fb28b2c35d496f03a420153643f5ddbb290b098573a251361e9ee23bfc",
+  "hash": "57332e5c3486371bb959d0d45ad31ff370286545b839851eb6b6209b6d682c30"
+}

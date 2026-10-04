@@ -1,0 +1,13 @@
+{
+  "task": "T-E6a",
+  "gate": "independent-review",
+  "kind": "review",
+  "attempt": "d9d689e9-32ee-4405-82c9-c375552587b8",
+  "human": "Goutham",
+  "reason": "Reviewed diff fd793f3..7b96b55 and the E6 register amendments; verdict FALSIFIED (Holm p 0.27 / 0.09) matches e6_*.json via --e6-verdict",
+  "observed_at": "2026-09-29T18:59:12.399Z",
+  "source_hash": "55c89c385d0f461c3d687023155d5f6fcda6ec2ced939db9f2001369d83eee8c",
+  "config_hash": "e50aa56697310b669be89af27009872da1c19c8c5ebd428f207cc79e4a377156",
+  "reviewed_proofs": "4ad445b1631fa7e7c17664b9ea303eef38be098f55ee2d1ff92358802132afa4",
+  "hash": "1882b0bcc3b89645b59e7d06eaa1d9dbcc5f01c52f8917b951472cd0c1b886c8"
+}

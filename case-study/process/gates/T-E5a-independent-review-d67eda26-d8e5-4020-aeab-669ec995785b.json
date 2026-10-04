@@ -1,0 +1,13 @@
+{
+  "task": "T-E5a",
+  "gate": "independent-review",
+  "kind": "review",
+  "attempt": "d67eda26-d8e5-4020-aeab-669ec995785b",
+  "human": "Goutham",
+  "reason": "Reviewed diff 995d039..bf3b384 and the E5 register amendments; verdict NARROW (vc33) matches e5_*.json via --e5-verdict",
+  "observed_at": "2026-09-29T18:41:23.731Z",
+  "source_hash": "55c89c385d0f461c3d687023155d5f6fcda6ec2ced939db9f2001369d83eee8c",
+  "config_hash": "7d8bf805873c99ed417163953c3a7d8b82e308eb7f8079cfa75bc16e7b0392f6",
+  "reviewed_proofs": "9029a6d713e3e6306ac7e161344be2db2d52647549ff32d35061aef98009c9ab",
+  "hash": "f66dbb7d024a9d0bde43e1a65cf38936fc32f25f4f6421f55f38f3148ee4bccb"
+}

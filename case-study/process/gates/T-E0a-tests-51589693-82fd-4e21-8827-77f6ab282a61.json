@@ -1,0 +1,30 @@
+{
+  "task": "T-E0a",
+  "gate": "tests",
+  "kind": "command",
+  "attempt": "51589693-82fd-4e21-8827-77f6ab282a61",
+  "command": ".venv\\Scripts\\python.exe -m pytest tests/test_e0_llm_baseline.py -q",
+  "started_at": "2026-09-11T20:38:53.190Z",
+  "observed_at": "2026-09-11T20:38:57.084Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": ".....                                                                    [100%]\r\n5 passed in 1.77s\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "8129bcaa42ff4d8d5873b7c899492746423d9a21",
+    "dirty": true
+  },
+  "source_hash": "93e7c06683dbad3b2143458da721acc98de53e93e29ea8e499120b3922a6b31f",
+  "before_hash": "93e7c06683dbad3b2143458da721acc98de53e93e29ea8e499120b3922a6b31f",
+  "config_hash": "82ebf54e19104d27dbbf953d6917aff29fdf837685b1d8f15c868d1208a68861",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "29b7b3640d750f0e3c65b0c03e476276a9a2d0b090bfc6f84b6a19ece85cc588"
+}

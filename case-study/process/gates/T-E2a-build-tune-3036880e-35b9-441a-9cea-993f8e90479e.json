@@ -1,0 +1,30 @@
+{
+  "task": "T-E2a",
+  "gate": "build-tune",
+  "kind": "command",
+  "attempt": "3036880e-35b9-441a-9cea-993f8e90479e",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_kernel.py --username goutham12 --slug arc-agi-3-e2-tune-e4b --split tune --episodes 3 --max-actions 80 --cells probe-5 match-5 probe-10 match-10 probe-20 match-20 --check",
+  "started_at": "2026-09-17T11:59:03.212Z",
+  "observed_at": "2026-09-17T11:59:23.742Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "built C:\\Goutham\\AI_Sprint\\portfolio_projects\\project_arc_agi_3\\experiments\\build\\arc-agi-3-e2-tune-e4b\r\ncheck ok: arc-agi-3-e2-tune-e4b (4 files, games ['dc22', 'ft09', 'ls20', 's5i5', 'sc25', 'sk48', 'tn36', 'tu93'], cells ['probe-5', 'match-5', 'probe-10', 'match-10', 'probe-20', 'match-20'])\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "6c83e0af33476e5bad834505ce9ecfa925e19a0b",
+    "dirty": true
+  },
+  "source_hash": "65c89159a1a5a14357c419120666d81ddeb3a9764f1dbfe8f8041c1ff1b3061f",
+  "before_hash": "65c89159a1a5a14357c419120666d81ddeb3a9764f1dbfe8f8041c1ff1b3061f",
+  "config_hash": "40d722118bfb8351d3334c5f16c160087578256a74a8de70743590cd0e03d05e",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "26bd3072eff31bb3ca9d3579be25b5cb8860ef130fbc76ba962cf20703088d53"
+}

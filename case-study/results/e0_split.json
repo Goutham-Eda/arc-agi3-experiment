@@ -1,0 +1,37 @@
+{
+ "created_utc": "2026-09-11T20:30:53+00:00",
+ "rule": "sorted game ids, shuffled with random.Random(20260912); first 8 tune, remaining 17 held-out. Fixed before any model played a game; never changed.",
+ "seed": 20260912,
+ "tune": [
+  "dc22",
+  "ft09",
+  "ls20",
+  "s5i5",
+  "sc25",
+  "sk48",
+  "tn36",
+  "tu93"
+ ],
+ "heldout": [
+  "ar25",
+  "bp35",
+  "cd82",
+  "cn04",
+  "g50t",
+  "ka59",
+  "lf52",
+  "lp85",
+  "m0r0",
+  "r11l",
+  "re86",
+  "sb26",
+  "sp80",
+  "su15",
+  "tr87",
+  "vc33",
+  "wa30"
+ ],
+ "report_separately": {
+  "r11l": "level 1 is cleared by random play faster than the human baseline; report it outside verdict metrics"
+ }
+}

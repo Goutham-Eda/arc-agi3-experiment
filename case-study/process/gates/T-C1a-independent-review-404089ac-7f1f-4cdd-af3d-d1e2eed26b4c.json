@@ -1,0 +1,13 @@
+{
+  "task": "T-C1a",
+  "gate": "independent-review",
+  "kind": "review",
+  "attempt": "404089ac-7f1f-4cdd-af3d-d1e2eed26b4c",
+  "human": "<reviewer>",
+  "reason": "Reviewed the C1 frame store, its checks and the collection criteria",
+  "observed_at": "2026-10-01T12:03:50.720Z",
+  "source_hash": "3b01501958d660fb9344bf10e43579960f97fe17e2188ee0781b0eea0e21454e",
+  "config_hash": "b8e4a3326814ca1debcd3a71689325015a7b07993b96b1d688ac8e06a15c0076",
+  "reviewed_proofs": "7c1c6b9a2f358f64b52cb99e8eeb53bce88d004dd2fad445321519c5c41e9673",
+  "hash": "79b4ec1cbd5b75337043417b5742ea66df6536cd834ad1e833b497cad4b8fda4"
+}

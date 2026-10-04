@@ -1,0 +1,30 @@
+{
+  "task": "T-E1a",
+  "gate": "probe-output",
+  "kind": "command",
+  "attempt": "08b2acdb-8c44-4b43-965a-5a01333b8d2e",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_kernel.py --verify-output experiments/build/e1-out-probe-e4b --cells off-off on-off off-on on-on",
+  "started_at": "2026-09-16T16:00:14.699Z",
+  "observed_at": "2026-09-16T16:00:22.185Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "off-off  3 episodes  deaths 1  rules 0  dead moves 0  substitution rate 0.0%  levels 0\r\non-off   3 episodes  deaths 1  rules 0  dead moves 60  substitution rate 13.3%  levels 0\r\noff-on   3 episodes  deaths 1  rules 1  dead moves 0  substitution rate 0.0%  levels 0\r\non-on    3 episodes  deaths 1  rules 1  dead moves 60  substitution rate 13.3%  levels 0\r\nverify ok: experiments\\build\\e1-out-probe-e4b\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "0ce7ce2a2a6220f50f0468c142954e1072453b0d",
+    "dirty": true
+  },
+  "source_hash": "985259856a44dafb9d2e2741bd67f976487bd55f4ef4e45bcb6285af36224f35",
+  "before_hash": "985259856a44dafb9d2e2741bd67f976487bd55f4ef4e45bcb6285af36224f35",
+  "config_hash": "c2cf667bbb6f5a094c9b9dff1e4b59880b591d413fcb609028af44213b76c093",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "a1eaf455c5155cd4f67b173e7250c1c3d82a04a5f2a54c5f7a5cc0997727e79f"
+}

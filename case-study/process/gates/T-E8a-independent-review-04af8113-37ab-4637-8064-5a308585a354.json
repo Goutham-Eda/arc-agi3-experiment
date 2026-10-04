@@ -1,0 +1,13 @@
+{
+  "task": "T-E8a",
+  "gate": "independent-review",
+  "kind": "review",
+  "attempt": "04af8113-37ab-4637-8064-5a308585a354",
+  "human": "Goutham",
+  "reason": "Reviewed diff 2074dca..a3860dc and the E8 register amendment; verdict NARROW (lf52) at 1000 matches e8_*.json via --e8-verdict",
+  "observed_at": "2026-09-30T03:52:30.824Z",
+  "source_hash": "b8d472188d285a55d15078be25554a13472c0559b7bde528f2041062f5233b5b",
+  "config_hash": "ac094600f753fb2e8b1c66663d6173edb27f038eb09a49ad36b29ed6de300a8a",
+  "reviewed_proofs": "9427af202781cc62b190d7ca83dd8804af6b3942468a4e3b87fe76b7ff0ab1f8",
+  "hash": "7192b97181259e917e4a8729a628c3aac575946c996c93dc8b7f21b972fc4a97"
+}

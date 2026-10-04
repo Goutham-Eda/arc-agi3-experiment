@@ -1,0 +1,13 @@
+{
+  "task": "T-E9a",
+  "gate": "independent-review",
+  "kind": "review",
+  "attempt": "59359eb9-5822-4ceb-8da8-bdd110ac20cf",
+  "human": "Goutham",
+  "reason": "Reviewed diff 22de172..0e08b55 and the E9 register amendment with caveats; verdict SUPPORTED matches e9_*.json via --e9-verdict",
+  "observed_at": "2026-09-30T05:15:47.373Z",
+  "source_hash": "3073816d5ed3506e0a6be8cdd384fd05f26f3325c03ff4ec02cc541b4abb0408",
+  "config_hash": "ce2cb1b34bf8fc3992f2e96ced04ccadafbe30b568838406d396a88130c29db6",
+  "reviewed_proofs": "0a8f71721e58279e365c01e879fb5f0c1f5ab0fe2953c3bcdcfd6d0ccb74da42",
+  "hash": "43f4eab3abca4f0e1a200d5a3035d52841ea2786226eedffc0ec25987107eb2d"
+}

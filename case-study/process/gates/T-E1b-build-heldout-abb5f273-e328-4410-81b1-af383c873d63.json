@@ -1,0 +1,30 @@
+{
+  "task": "T-E1b",
+  "gate": "build-heldout",
+  "kind": "command",
+  "attempt": "abb5f273-e328-4410-81b1-af383c873d63",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_kernel.py --username goutham12 --slug arc-agi-3-e1-heldout-e4b --split heldout --episodes 5 --max-actions 80 --cells on-off off-on on-on --check",
+  "started_at": "2026-09-17T05:07:55.822Z",
+  "observed_at": "2026-09-17T05:08:05.869Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "built C:\\Goutham\\AI_Sprint\\portfolio_projects\\project_arc_agi_3\\experiments\\build\\arc-agi-3-e1-heldout-e4b\r\ncheck ok: arc-agi-3-e1-heldout-e4b (4 files, games ['ar25', 'bp35', 'cd82', 'cn04', 'g50t', 'ka59', 'lf52', 'lp85', 'm0r0', 'r11l', 're86', 'sb26', 'sp80', 'su15', 'tr87', 'vc33', 'wa30'], cells ['on-off', 'off-on', 'on-on'])\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "e9b0230d002f8b257f7e347571aa3ca6ddafe0e9",
+    "dirty": true
+  },
+  "source_hash": "1991e64cab15ee2956c7728699d68ea0433e494eff752fc039226b7e9070a994",
+  "before_hash": "1991e64cab15ee2956c7728699d68ea0433e494eff752fc039226b7e9070a994",
+  "config_hash": "c9861f9f39e3871b806ba60834b7aedb24d8fc4c8803c1341f118d13b3ee1b7f",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "44c81140e4b38315912318355715b53f716b33c256698822fca124a2dd6388fa"
+}

@@ -1,0 +1,13 @@
+{
+  "task": "T-B4",
+  "gate": "independent-review",
+  "kind": "review",
+  "attempt": "9448f072-f029-4d02-b6ff-d455c560f3e5",
+  "human": "Goutham",
+  "reason": "Reviewed diff 63b69bb..5f9e69a (Build 4 agent, tests, rehearsal); hidden-set score 0.15",
+  "observed_at": "2026-09-30T14:39:50.268Z",
+  "source_hash": "55abb0b4190f4a1d5ecc1d28f3b4198297edb2b792713d7374582cca0e137736",
+  "config_hash": "8498ef5942c4fe2112c69cef4c693bdb29a6fb0eb9c3f81284952c27c4b7063e",
+  "reviewed_proofs": "51fa965d7da1f35ffe5ec35696edaab7df04ad15feb543948560b5ff1cd3f647",
+  "hash": "3ccb34fec837cf9bf2ce46b1fde9073a70d9bf95d53a64d3ff59c1aca075043b"
+}

@@ -1,0 +1,13 @@
+{
+  "task": "T-W1",
+  "gate": "independent-review",
+  "kind": "review",
+  "attempt": "99c617f8-f0c6-4e3d-b888-30ad6332b913",
+  "human": "Goutham",
+  "reason": "Reviewed E0-E4 write-up",
+  "observed_at": "2026-09-17T16:52:05.258Z",
+  "source_hash": "73c8ca599f8c7846f55149fbeb32adc20880332fcf217a4cda9a28c6aa644695",
+  "config_hash": "b061c8d86e055a9e877feb1fba8b50624097a0b18f57e4085b0172b557360cd0",
+  "reviewed_proofs": "26f35986fad5ef2c030fbc59e688618ebb1457804c460f9c1cdfea32aa7441cd",
+  "hash": "92aed75cf2d112b849f3b322dae842361dbd763e4fd54d29cec18108c89dd43d"
+}

@@ -1,0 +1,30 @@
+{
+  "task": "T-E6a",
+  "gate": "e6-verdict",
+  "kind": "command",
+  "attempt": "6a28bc92-2be0-4205-b2e8-d447dfef7041",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_analyze.py --e6-verdict experiments",
+  "started_at": "2026-09-29T18:45:17.766Z",
+  "observed_at": "2026-09-29T18:46:31.889Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "\r\n300 actions, 17 held-out games x 20 seeds (episodes 100-119)\r\n  local  verdict clears  57  RHAE verdict 0.0858  RHAE all 0.1771  r11l clears 19  measured dead rate 0.312  masked states/100  55.9  nodes/100  54.4  nav share 0.000\r\n  nav    verdict clears  61  RHAE verdict 0.0820  RHAE all 0.1735  r11l clears 19  measured dead rate 0.312  masked states/100  56.0  nodes/100  54.2  nav share 0.037\r\n  c0     verdict clears  37  RHAE verdict 0.0952  RHAE all 0.1310  r11l clears 10  measured dead rate 0.257  masked states/100  58.2\r\n  G navigations 2556  reached without replanning 2276  mean planned path 1.5\r\n  per game (all 17): L clears, G clears, C0 clears, max depth L/G (mean), G nav share\r\n    ar25    0   0   0   75.0/ 75.0  0.000\r\n    bp35    0   0   0   38.0/ 39.1  0.010\r\n    cd82    3   3   1   77.8/ 77.8  0.000\r\n    cn04    0   0   1   61.0/ 61.0  0.000\r\n    g50t    0   0   0   25.6/ 25.6  0.185\r\n    ka59    0   0   0   78.2/ 78.2  0.000\r\n    lf52    1   1   0   23.5/ 24.2  0.279\r\n    lp85   20  20  20   45.6/ 44.6  0.003\r\n    m0r0    0   0   0   89.8/ 89.8  0.000\r\n    r11l   19  19  10   39.8/ 39.4  0.004  (outside verdict)\r\n    re86    0   0   0   99.0/ 99.0  0.000\r\n    sb26    0   0   0   97.8/ 97.8  0.000\r\n    sp80   12  15  15   24.0/ 23.6  0.053\r\n    su15    0   0   0   49.0/ 48.9  0.006\r\n    tr87    0   0   0   65.0/ 65.0  0.001\r\n    vc33   21  22   0   22.6/ 24.8  0.080\r\n    wa30    0   0   0  165.4/165.4  0.000\r\n  per-seed difference (G - L): [0, 1, -1, 1, 2, -1, 0, 1, 0, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, -1]\r\n  sign test: 7 wins, 4 losses, 9 ties, one-sided p = 0.2744\r\n  concentration: largest gain sp80 (+3); without it p = 0.5000, totals 46 vs 45; games improved ['sp80', 'vc33']\r\n  Holm-adjusted p = 0.2744\r\n  credit, G vs C0: clears 61 vs 37, p = 0.0000, concentrated True\r\n  secondary, L vs C0: clears 57 vs 37, p = 0.0001\r\n\r\n1000 actions, 17 held-out games x 20 seeds (episodes 100-119)\r\n  local  verdict clears  80  RHAE verdict 0.0909  RHAE all 0.1819  r11l clears 20  measured dead rate 0.307  masked states/100  52.1  nodes/100  51.6  nav share 0.000\r\n  nav    verdict clears  90  RHAE verdict 0.0853  RHAE all 0.1766  r11l clears 20  measured dead rate 0.307  masked states/100  52.5  nodes/100  51.8  nav share 0.061\r\n  c0     verdict clears  55  RHAE verdict 0.0972  RHAE all 0.1331  r11l clears 18  measured dead rate 0.252  masked states/100  50.7\r\n  G navigations 11748  reached without replanning 10052  mean planned path 1.8\r\n  per game (all 17): L clears, G clears, C0 clears, max depth L/G (mean), G nav share\r\n    ar25    0   0   2   74.2/ 74.4  0.002\r\n    bp35    0   0   0   39.9/ 41.9  0.032\r\n    cd82    8   8   5   77.7/ 78.0  0.001\r\n    cn04    1   0   1   63.3/ 62.8  0.006\r\n    g50t    0   0   0   25.1/ 26.1  0.384\r\n    ka59    0   0   0   79.4/ 79.4  0.000\r\n    lf52    3   9   0   30.0/ 36.6  0.360\r\n    lp85   22  21  20   60.1/ 60.0  0.013\r\n    m0r0    0   0   5   88.8/ 88.5  0.002\r\n    r11l   20  20  18   44.0/ 41.0  0.028  (outside verdict)\r\n    re86    0   0   0   99.0/ 99.0  0.005\r\n    sb26    0   0   0  136.5/139.2  0.010\r\n    sp80   20  20  20   30.3/ 30.3  0.052\r\n    su15    0   0   0   49.0/ 48.5  0.024\r\n    tr87    0   0   0   76.2/ 72.8  0.008\r\n    vc33   26  32   2   25.0/ 28.6  0.101\r\n    wa30    0   0   0  169.2/169.1  0.001\r\n  per-seed difference (G - L): [1, 0, -2, 2, 2, 0, 2, 0, 0, -1, 1, 0, 0, 1, 2, -2, 1, 0, 1, 2]\r\n  sign test: 10 wins, 3 losses, 7 ties, one-sided p = 0.0461\r\n  concentration: largest gain lf52 (+6); without it p = 0.2905, totals 81 vs 77; games improved ['lf52', 'vc33']\r\n  Holm-adjusted p = 0.0923\r\n  credit, G vs C0: clears 90 vs 55, p = 0.0001, concentrated True\r\n  secondary, L vs C0: clears 80 vs 55, p = 0.0001\r\n\r\nnavigation fidelity, G, pooled over both budgets:\r\n    ar25  1.000 (46/46)\r\n    bp35  0.871 (622/714)\r\n    cd82  0.526 (10/19)\r\n    cn04  0.940 (109/116)\r\n    g50t  0.843 (8262/9803)\r\n    ka59  never navigated\r\n    lf52  0.984 (8854/9001)\r\n    lp85  1.000 (280/280)\r\n    m0r0  0.282 (11/39)\r\n    r11l  0.755 (448/593)\r\n    re86  1.000 (100/100)\r\n    sb26  1.000 (203/203)\r\n    sp80  0.940 (1274/1355)\r\n    su15  0.977 (514/526)\r\n    tr87  1.000 (163/163)\r\n    vc33  0.807 (2647/3281)\r\n    wa30  0.650 (13/20)\r\nE6: FALSIFIED\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "7b96b55ca291a3df109d53d1bc9eac5a2a41eece",
+    "dirty": true
+  },
+  "source_hash": "55c89c385d0f461c3d687023155d5f6fcda6ec2ced939db9f2001369d83eee8c",
+  "before_hash": "55c89c385d0f461c3d687023155d5f6fcda6ec2ced939db9f2001369d83eee8c",
+  "config_hash": "e50aa56697310b669be89af27009872da1c19c8c5ebd428f207cc79e4a377156",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "270fc6a4e6dd44b264f147845a8dbd6983fcd45051af1176a0a31f58f7fb630a"
+}

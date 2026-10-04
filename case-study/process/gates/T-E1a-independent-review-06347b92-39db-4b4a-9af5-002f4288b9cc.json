@@ -1,0 +1,13 @@
+{
+  "task": "T-E1a",
+  "gate": "independent-review",
+  "kind": "review",
+  "attempt": "06347b92-39db-4b4a-9af5-002f4288b9cc",
+  "human": "Goutham",
+  "reason": "Reviewed 9b74368 diff and probe amendment",
+  "observed_at": "2026-09-16T16:00:44.363Z",
+  "source_hash": "985259856a44dafb9d2e2741bd67f976487bd55f4ef4e45bcb6285af36224f35",
+  "config_hash": "c2cf667bbb6f5a094c9b9dff1e4b59880b591d413fcb609028af44213b76c093",
+  "reviewed_proofs": "a2b179235239425b70417265cd47f11582aa01183631423eb9989935c175c741",
+  "hash": "1d281b5dc0dc2f4027e53a5959bb71a6914548ebfc569322a5dfb447d5dc8050"
+}

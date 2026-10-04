@@ -1,0 +1,30 @@
+{
+  "task": "T-E11a",
+  "gate": "e11-verdict",
+  "kind": "command",
+  "attempt": "139b5aa1-0b67-4535-b632-4adf62f354c0",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_analyze.py --e11-verdict experiments",
+  "started_at": "2026-10-01T08:01:48.432Z",
+  "observed_at": "2026-10-01T08:02:22.930Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "\r\n1000 actions, 17 held-out games x 40 seeds (episodes 220-259)\r\n  ucb    verdict clears 209  RHAE verdict 0.1192  RHAE all 0.2214  r11l clears 40  measured dead rate 0.140  masked states/100  66.2  fallbacks 9860  clicks 304237  on background colour 0.12\r\n  obj    verdict clears 230  RHAE verdict 0.1488  RHAE all 0.3253  r11l clears 41  measured dead rate 0.139  masked states/100  67.1  fallbacks 10708  clicks 300180  on background colour 0.08\r\n  per game (all 17): B clears, B_obj clears, B_obj's two most-pulled arms (share)\r\n    ar25   18  13  [('k/5', 0.17), ('k/4', 0.16)]\r\n    bp35    2   2  [('k/4', 0.2), ('c/6/14', 0.19)]\r\n    cd82    7  10  [('k/5', 0.21), ('k/4', 0.14)]\r\n    cn04    0   0  [('c/6/8', 0.17), ('c/6/14', 0.12)]\r\n    g50t    0   0  [('k/4', 0.3), ('k/2', 0.28)]\r\n    ka59    0   1  [('k/3', 0.21), ('k/4', 0.2)]\r\n    lf52   23  32  [('c/6/12', 0.11), ('c/6/11', 0.11)]\r\n    lp85   58  71  [('c/6/8', 0.83), ('c/6/14', 0.05)]\r\n    m0r0   18  19  [('k/2', 0.21), ('k/1', 0.21)]\r\n    r11l   40  41  [('c/6/1', 0.15), ('c/6/15', 0.15)]  (outside verdict)\r\n    re86    0   0  [('k/4', 0.2), ('k/5', 0.2)]\r\n    sb26    0   0  [('k/5', 0.42), ('c/6/11', 0.09)]\r\n    sp80   13  19  [('k/2', 0.16), ('k/4', 0.15)]\r\n    su15    0   0  [('c/6/3', 0.56), ('c/6/5', 0.11)]\r\n    tr87    2   2  [('k/1', 0.29), ('k/2', 0.26)]\r\n    vc33   68  61  [('c/6/9', 0.28), ('c/6/14', 0.19)]\r\n    wa30    0   0  [('k/1', 0.25), ('k/3', 0.25)]\r\n  per-seed difference (B_obj - B): [0, 1, 5, 1, 0, -3, 3, -2, -1, 2, 2, 1, -3, 3, 1, 5, -2, -1, 0, -1, 1, 2, 2, 2, -1, 4, -1, -1, 0, 0, 0, -1, 0, -2, 0, 2, 0, 3, -1, 1]\r\n  sign test: 18 wins, 13 losses, 9 ties, one-sided p = 0.2366\r\n  concentration: largest gain lp85 (+13); without it p = 0.2858, totals 159 vs 151; games improved ['cd82', 'ka59', 'lf52', 'lp85', 'm0r0', 'sp80']\r\n  E11 at 1000 (PRIMARY): FALSIFIED\r\n  ucb: clears on the 12 click verdict games 207\r\n  obj: clears on the 12 click verdict games 228\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "b68511e24139da9a63150633b4724a398201a2aa",
+    "dirty": true
+  },
+  "source_hash": "e825e3eaba6cae0d64426aed88a584129900fb825d03971a1a7f8f5a59eb900a",
+  "before_hash": "e825e3eaba6cae0d64426aed88a584129900fb825d03971a1a7f8f5a59eb900a",
+  "config_hash": "e552c764c406d9a96fe06c0910ba5b83a6fd68a99b7ea317b2fe607890f9a558",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "a5075c96353187377892afa4a309b2ea7d24190d392c80e6a54374795c7b8d91"
+}

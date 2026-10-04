@@ -1,0 +1,30 @@
+{
+  "task": "T-E9a",
+  "gate": "e9-verdict",
+  "kind": "command",
+  "attempt": "3415c5b1-81d9-483d-9c39-ac4f2d84d073",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_analyze.py --e9-verdict experiments",
+  "started_at": "2026-09-30T04:59:24.338Z",
+  "observed_at": "2026-09-30T05:00:02.066Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "\r\n1000 actions, 17 held-out games x 40 seeds (episodes 140-179)\r\n  uniform verdict clears 171  RHAE verdict 0.1278  RHAE all 0.2246  r11l clears 40  measured dead rate 0.300  masked states/100  51.8  fallbacks 15803\r\n  ucb    verdict clears 217  RHAE verdict 0.1499  RHAE all 0.2326  r11l clears 40  measured dead rate 0.141  masked states/100  66.4  fallbacks 11524\r\n  per game (all 17): A' clears, B clears, B's two most-pulled arms (share)\r\n    ar25    1  17  [('k/7', 0.17), ('k/4', 0.16)]\r\n    bp35    0   1  [('k/4', 0.19), ('c/6/14', 0.19)]\r\n    cd82   22   9  [('k/5', 0.21), ('k/4', 0.13)]\r\n    cn04    0   1  [('c/6/8', 0.17), ('c/6/14', 0.12)]\r\n    g50t    0   0  [('k/4', 0.31), ('k/2', 0.27)]\r\n    ka59    2   0  [('k/3', 0.22), ('k/4', 0.2)]\r\n    lf52    2  25  [('c/6/14', 0.14), ('c/6/11', 0.08)]\r\n    lp85   41  63  [('c/6/8', 0.84), ('c/6/14', 0.04)]\r\n    m0r0    1  18  [('k/2', 0.22), ('k/1', 0.21)]\r\n    r11l   40  40  [('c/6/1', 0.15), ('c/6/3', 0.14)]  (outside verdict)\r\n    re86    0   0  [('k/5', 0.2), ('k/3', 0.2)]\r\n    sb26    0   0  [('k/5', 0.33), ('c/6/14', 0.11)]\r\n    sp80   41  21  [('k/4', 0.15), ('k/2', 0.15)]\r\n    su15    0   0  [('c/6/5', 0.38), ('c/6/9', 0.21)]\r\n    tr87    2   0  [('k/2', 0.28), ('k/1', 0.26)]\r\n    vc33   59  62  [('c/6/9', 0.3), ('c/6/14', 0.17)]\r\n    wa30    0   0  [('k/1', 0.25), ('k/3', 0.25)]\r\n  per-seed difference (B - A'): [1, 1, 2, 0, 0, 0, 0, 0, 0, -1, 2, 2, 0, 0, 2, 2, 1, 3, -1, 2, 0, 4, 4, 0, 4, 3, 3, 0, 2, -3, 0, 0, 1, -1, 3, 2, 0, 1, 3, 4]\r\n  sign test: 22 wins, 4 losses, 14 ties, one-sided p = 0.0003\r\n  concentration: largest gain lf52 (+23); without it p = 0.0436, totals 192 vs 169; games improved ['ar25', 'bp35', 'cn04', 'lf52', 'lp85', 'm0r0', 'vc33']\r\n  E9 at 1000 (PRIMARY): SUPPORTED\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "96792db59d3d1116e0a49bbda4dd5d0eb038179e",
+    "dirty": true
+  },
+  "source_hash": "3073816d5ed3506e0a6be8cdd384fd05f26f3325c03ff4ec02cc541b4abb0408",
+  "before_hash": "3073816d5ed3506e0a6be8cdd384fd05f26f3325c03ff4ec02cc541b4abb0408",
+  "config_hash": "ce2cb1b34bf8fc3992f2e96ced04ccadafbe30b568838406d396a88130c29db6",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "b3272a37de4161dfc502d723bb76906dd4316751925a169f9c8d74537f6207ce"
+}

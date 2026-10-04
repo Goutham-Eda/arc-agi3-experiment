@@ -1,0 +1,30 @@
+{
+  "task": "T-E10a",
+  "gate": "e10-verdict",
+  "kind": "command",
+  "attempt": "033b1ffb-01c4-4148-854c-db1cb8d55c2d",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_analyze.py --e10-verdict experiments",
+  "started_at": "2026-09-30T14:50:08.936Z",
+  "observed_at": "2026-09-30T14:50:22.321Z",
+  "exit_code": 0,
+  "signal": null,
+  "stdout": "\r\n1000 actions, 17 held-out games x 40 seeds (episodes 180-219)\r\n  ucb    verdict clears 227  RHAE verdict 0.1722  RHAE all 0.3110  r11l clears 40  measured dead rate 0.144  masked states/100  66.6  fallbacks 10807  repeat deaths 534  exclusions 0  deadly click pairs 4758\r\n  safe   verdict clears 245  RHAE verdict 0.1732  RHAE all 0.3120  r11l clears 40  measured dead rate 0.147  masked states/100  67.3  fallbacks 12747  repeat deaths 34  exclusions 14796  deadly click pairs 4932\r\n  per game (all 17): B clears, B' clears, B''s two most-pulled arms (share)\r\n    ar25   13  13  [('k/4', 0.17), ('k/3', 0.16)]\r\n    bp35    2   4  [('c/6/14', 0.2), ('k/4', 0.19)]\r\n    cd82   11  11  [('k/5', 0.21), ('k/3', 0.14)]\r\n    cn04    0   0  [('c/6/8', 0.16), ('c/6/14', 0.13)]\r\n    g50t    0   0  [('k/4', 0.35), ('k/5', 0.24)]\r\n    ka59    0   0  [('k/3', 0.22), ('k/4', 0.2)]\r\n    lf52   28  26  [('c/6/14', 0.13), ('c/6/12', 0.08)]\r\n    lp85   74  76  [('c/6/8', 0.85), ('c/6/14', 0.04)]\r\n    m0r0   19  19  [('k/2', 0.21), ('k/1', 0.21)]\r\n    r11l   40  40  [('c/6/1', 0.14), ('c/6/3', 0.14)]  (outside verdict)\r\n    re86    0   0  [('k/5', 0.2), ('k/2', 0.2)]\r\n    sb26    0   0  [('k/5', 0.33), ('c/6/14', 0.11)]\r\n    sp80   18  30  [('c/6/8', 0.14), ('k/2', 0.14)]\r\n    su15    0   0  [('c/6/5', 0.38), ('c/6/9', 0.22)]\r\n    tr87    1   1  [('k/2', 0.29), ('k/1', 0.25)]\r\n    vc33   61  65  [('c/6/9', 0.33), ('c/6/14', 0.16)]\r\n    wa30    0   0  [('k/1', 0.25), ('k/4', 0.25)]\r\n  sp80: ucb: ACTION5 pulls 4745, repeat deaths 403, deaths 1260 | safe: ACTION5 pulls 3330, repeat deaths 2, deaths 1189\r\n  cd82: ucb: ACTION5 pulls 8570, repeat deaths 0, deaths 360 | safe: ACTION5 pulls 8570, repeat deaths 0, deaths 360\r\n  per-seed difference (B' - B): [0, -1, 2, 2, 1, 0, 1, -1, 2, 1, 2, 2, 0, 0, 0, 0, -1, 0, -1, -2, 1, -1, 1, 0, 2, 1, 2, 0, 1, 1, 1, 0, 0, 1, 1, 0, -1, 1, 1, -1]\r\n  sign test: 20 wins, 8 losses, 12 ties, one-sided p = 0.0178\r\n  concentration: largest gain sp80 (+12); without it p = 0.1189, totals 215 vs 209; games improved ['bp35', 'lp85', 'sp80', 'vc33']\r\n  E10 at 1000 (PRIMARY): NARROW: carried by sp80\r\n",
+  "stderr": "",
+  "failure": null,
+  "receipt": null,
+  "revision": {
+    "commit": "889b2e960068cac827a647c59939ba64b777b96a",
+    "dirty": true
+  },
+  "source_hash": "55abb0b4190f4a1d5ecc1d28f3b4198297edb2b792713d7374582cca0e137736",
+  "before_hash": "55abb0b4190f4a1d5ecc1d28f3b4198297edb2b792713d7374582cca0e137736",
+  "config_hash": "d64e1da61aba836962c1d81ca50fbaf48d01c9580a4d32259cf1ef3e8390f9c8",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "3e1203920c403f3be133f5350745dc369ba3aedeefc5c13b9125f3fc2e066934"
+}

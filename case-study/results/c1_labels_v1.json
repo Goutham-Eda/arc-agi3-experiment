@@ -1,0 +1,2253 @@
+{
+ "definition_version": "v1",
+ "labels": {
+  "exact": "any cell of any layer changed (stored exact hashes differ)",
+  "masked": "E5 bar-only masked judge: the state identity changed",
+  "obj_structural": "per-colour multiset of 4-connected component sizes differs, on the masked resting layer (appeared, vanished, split, merged, resized)",
+  "obj_moved": "that multiset is unchanged but the cells differ",
+  "progress": "NOT DERIVED: needs judgement the frames do not contain"
+ },
+ "episodes": [
+  {
+   "index": 0,
+   "episode_id": "C1-arms-dc22-300",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 1,
+   "episode_id": "C1-arms-dc22-301",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 2,
+   "episode_id": "C1-arms-dc22-302",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 3,
+   "episode_id": "C1-arms-dc22-303",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 4,
+   "episode_id": "C1-arms-dc22-304",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 5,
+   "episode_id": "C1-arms-dc22-305",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 6,
+   "episode_id": "C1-arms-dc22-306",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 7,
+   "episode_id": "C1-arms-dc22-307",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 8,
+   "episode_id": "C1-arms-dc22-308",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 9,
+   "episode_id": "C1-arms-dc22-309",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 10,
+   "episode_id": "C1-arms-dc22-310",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 11,
+   "episode_id": "C1-arms-dc22-311",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 12,
+   "episode_id": "C1-arms-dc22-312",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 13,
+   "episode_id": "C1-arms-dc22-313",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 14,
+   "episode_id": "C1-arms-dc22-314",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 15,
+   "episode_id": "C1-arms-dc22-315",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 16,
+   "episode_id": "C1-arms-dc22-316",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 17,
+   "episode_id": "C1-arms-dc22-317",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 18,
+   "episode_id": "C1-arms-dc22-318",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 19,
+   "episode_id": "C1-arms-dc22-319",
+   "policy": "arms",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 20,
+   "episode_id": "C1-arms-ft09-300",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 21,
+   "episode_id": "C1-arms-ft09-301",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 22,
+   "episode_id": "C1-arms-ft09-302",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 23,
+   "episode_id": "C1-arms-ft09-303",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 24,
+   "episode_id": "C1-arms-ft09-304",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 25,
+   "episode_id": "C1-arms-ft09-305",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 26,
+   "episode_id": "C1-arms-ft09-306",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 27,
+   "episode_id": "C1-arms-ft09-307",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 28,
+   "episode_id": "C1-arms-ft09-308",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 29,
+   "episode_id": "C1-arms-ft09-309",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 30,
+   "episode_id": "C1-arms-ft09-310",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 31,
+   "episode_id": "C1-arms-ft09-311",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 32,
+   "episode_id": "C1-arms-ft09-312",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 33,
+   "episode_id": "C1-arms-ft09-313",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 34,
+   "episode_id": "C1-arms-ft09-314",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 35,
+   "episode_id": "C1-arms-ft09-315",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 36,
+   "episode_id": "C1-arms-ft09-316",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 37,
+   "episode_id": "C1-arms-ft09-317",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 38,
+   "episode_id": "C1-arms-ft09-318",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 39,
+   "episode_id": "C1-arms-ft09-319",
+   "policy": "arms",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 40,
+   "episode_id": "C1-arms-ls20-300",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 41,
+   "episode_id": "C1-arms-ls20-301",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 42,
+   "episode_id": "C1-arms-ls20-302",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 43,
+   "episode_id": "C1-arms-ls20-303",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 44,
+   "episode_id": "C1-arms-ls20-304",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 45,
+   "episode_id": "C1-arms-ls20-305",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 46,
+   "episode_id": "C1-arms-ls20-306",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 47,
+   "episode_id": "C1-arms-ls20-307",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 48,
+   "episode_id": "C1-arms-ls20-308",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 49,
+   "episode_id": "C1-arms-ls20-309",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 50,
+   "episode_id": "C1-arms-ls20-310",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 51,
+   "episode_id": "C1-arms-ls20-311",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 52,
+   "episode_id": "C1-arms-ls20-312",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 53,
+   "episode_id": "C1-arms-ls20-313",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 54,
+   "episode_id": "C1-arms-ls20-314",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 55,
+   "episode_id": "C1-arms-ls20-315",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 56,
+   "episode_id": "C1-arms-ls20-316",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 57,
+   "episode_id": "C1-arms-ls20-317",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 58,
+   "episode_id": "C1-arms-ls20-318",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 59,
+   "episode_id": "C1-arms-ls20-319",
+   "policy": "arms",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 60,
+   "episode_id": "C1-arms-s5i5-300",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 61,
+   "episode_id": "C1-arms-s5i5-301",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 62,
+   "episode_id": "C1-arms-s5i5-302",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 63,
+   "episode_id": "C1-arms-s5i5-303",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 64,
+   "episode_id": "C1-arms-s5i5-304",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 65,
+   "episode_id": "C1-arms-s5i5-305",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 66,
+   "episode_id": "C1-arms-s5i5-306",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 67,
+   "episode_id": "C1-arms-s5i5-307",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 68,
+   "episode_id": "C1-arms-s5i5-308",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 69,
+   "episode_id": "C1-arms-s5i5-309",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 70,
+   "episode_id": "C1-arms-s5i5-310",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 71,
+   "episode_id": "C1-arms-s5i5-311",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 72,
+   "episode_id": "C1-arms-s5i5-312",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 73,
+   "episode_id": "C1-arms-s5i5-313",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 74,
+   "episode_id": "C1-arms-s5i5-314",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 75,
+   "episode_id": "C1-arms-s5i5-315",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 76,
+   "episode_id": "C1-arms-s5i5-316",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 77,
+   "episode_id": "C1-arms-s5i5-317",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 78,
+   "episode_id": "C1-arms-s5i5-318",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 79,
+   "episode_id": "C1-arms-s5i5-319",
+   "policy": "arms",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 80,
+   "episode_id": "C1-arms-sc25-300",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 81,
+   "episode_id": "C1-arms-sc25-301",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 82,
+   "episode_id": "C1-arms-sc25-302",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 83,
+   "episode_id": "C1-arms-sc25-303",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 84,
+   "episode_id": "C1-arms-sc25-304",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 85,
+   "episode_id": "C1-arms-sc25-305",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 86,
+   "episode_id": "C1-arms-sc25-306",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 87,
+   "episode_id": "C1-arms-sc25-307",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 88,
+   "episode_id": "C1-arms-sc25-308",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 89,
+   "episode_id": "C1-arms-sc25-309",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 90,
+   "episode_id": "C1-arms-sc25-310",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 91,
+   "episode_id": "C1-arms-sc25-311",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 92,
+   "episode_id": "C1-arms-sc25-312",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 93,
+   "episode_id": "C1-arms-sc25-313",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 94,
+   "episode_id": "C1-arms-sc25-314",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 95,
+   "episode_id": "C1-arms-sc25-315",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 96,
+   "episode_id": "C1-arms-sc25-316",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 97,
+   "episode_id": "C1-arms-sc25-317",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 98,
+   "episode_id": "C1-arms-sc25-318",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 99,
+   "episode_id": "C1-arms-sc25-319",
+   "policy": "arms",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 100,
+   "episode_id": "C1-arms-sk48-300",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 101,
+   "episode_id": "C1-arms-sk48-301",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 102,
+   "episode_id": "C1-arms-sk48-302",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 103,
+   "episode_id": "C1-arms-sk48-303",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 104,
+   "episode_id": "C1-arms-sk48-304",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 105,
+   "episode_id": "C1-arms-sk48-305",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 106,
+   "episode_id": "C1-arms-sk48-306",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 107,
+   "episode_id": "C1-arms-sk48-307",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 108,
+   "episode_id": "C1-arms-sk48-308",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 109,
+   "episode_id": "C1-arms-sk48-309",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 110,
+   "episode_id": "C1-arms-sk48-310",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 111,
+   "episode_id": "C1-arms-sk48-311",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 112,
+   "episode_id": "C1-arms-sk48-312",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 113,
+   "episode_id": "C1-arms-sk48-313",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 114,
+   "episode_id": "C1-arms-sk48-314",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 115,
+   "episode_id": "C1-arms-sk48-315",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 116,
+   "episode_id": "C1-arms-sk48-316",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 117,
+   "episode_id": "C1-arms-sk48-317",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 118,
+   "episode_id": "C1-arms-sk48-318",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 119,
+   "episode_id": "C1-arms-sk48-319",
+   "policy": "arms",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 120,
+   "episode_id": "C1-arms-tn36-300",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 121,
+   "episode_id": "C1-arms-tn36-301",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 122,
+   "episode_id": "C1-arms-tn36-302",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 123,
+   "episode_id": "C1-arms-tn36-303",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 124,
+   "episode_id": "C1-arms-tn36-304",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 125,
+   "episode_id": "C1-arms-tn36-305",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 126,
+   "episode_id": "C1-arms-tn36-306",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 127,
+   "episode_id": "C1-arms-tn36-307",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 128,
+   "episode_id": "C1-arms-tn36-308",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 129,
+   "episode_id": "C1-arms-tn36-309",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 130,
+   "episode_id": "C1-arms-tn36-310",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 131,
+   "episode_id": "C1-arms-tn36-311",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 132,
+   "episode_id": "C1-arms-tn36-312",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 133,
+   "episode_id": "C1-arms-tn36-313",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 134,
+   "episode_id": "C1-arms-tn36-314",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 135,
+   "episode_id": "C1-arms-tn36-315",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 136,
+   "episode_id": "C1-arms-tn36-316",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 137,
+   "episode_id": "C1-arms-tn36-317",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 138,
+   "episode_id": "C1-arms-tn36-318",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 139,
+   "episode_id": "C1-arms-tn36-319",
+   "policy": "arms",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 140,
+   "episode_id": "C1-arms-tu93-300",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 141,
+   "episode_id": "C1-arms-tu93-301",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 142,
+   "episode_id": "C1-arms-tu93-302",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 143,
+   "episode_id": "C1-arms-tu93-303",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 144,
+   "episode_id": "C1-arms-tu93-304",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 145,
+   "episode_id": "C1-arms-tu93-305",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 146,
+   "episode_id": "C1-arms-tu93-306",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 147,
+   "episode_id": "C1-arms-tu93-307",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 148,
+   "episode_id": "C1-arms-tu93-308",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 149,
+   "episode_id": "C1-arms-tu93-309",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 150,
+   "episode_id": "C1-arms-tu93-310",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 151,
+   "episode_id": "C1-arms-tu93-311",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 152,
+   "episode_id": "C1-arms-tu93-312",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 153,
+   "episode_id": "C1-arms-tu93-313",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 154,
+   "episode_id": "C1-arms-tu93-314",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 155,
+   "episode_id": "C1-arms-tu93-315",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 156,
+   "episode_id": "C1-arms-tu93-316",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 157,
+   "episode_id": "C1-arms-tu93-317",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 158,
+   "episode_id": "C1-arms-tu93-318",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 159,
+   "episode_id": "C1-arms-tu93-319",
+   "policy": "arms",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 160,
+   "episode_id": "C1-arms-ucb-dc22-300",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 161,
+   "episode_id": "C1-arms-ucb-dc22-301",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 162,
+   "episode_id": "C1-arms-ucb-dc22-302",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 163,
+   "episode_id": "C1-arms-ucb-dc22-303",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 164,
+   "episode_id": "C1-arms-ucb-dc22-304",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 165,
+   "episode_id": "C1-arms-ucb-dc22-305",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 166,
+   "episode_id": "C1-arms-ucb-dc22-306",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 167,
+   "episode_id": "C1-arms-ucb-dc22-307",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 168,
+   "episode_id": "C1-arms-ucb-dc22-308",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 169,
+   "episode_id": "C1-arms-ucb-dc22-309",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 170,
+   "episode_id": "C1-arms-ucb-dc22-310",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 171,
+   "episode_id": "C1-arms-ucb-dc22-311",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 172,
+   "episode_id": "C1-arms-ucb-dc22-312",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 173,
+   "episode_id": "C1-arms-ucb-dc22-313",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 174,
+   "episode_id": "C1-arms-ucb-dc22-314",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 175,
+   "episode_id": "C1-arms-ucb-dc22-315",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 176,
+   "episode_id": "C1-arms-ucb-dc22-316",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 177,
+   "episode_id": "C1-arms-ucb-dc22-317",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 178,
+   "episode_id": "C1-arms-ucb-dc22-318",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 179,
+   "episode_id": "C1-arms-ucb-dc22-319",
+   "policy": "arms-ucb",
+   "game_id": "dc22",
+   "steps": 1000
+  },
+  {
+   "index": 180,
+   "episode_id": "C1-arms-ucb-ft09-300",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 181,
+   "episode_id": "C1-arms-ucb-ft09-301",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 182,
+   "episode_id": "C1-arms-ucb-ft09-302",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 183,
+   "episode_id": "C1-arms-ucb-ft09-303",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 184,
+   "episode_id": "C1-arms-ucb-ft09-304",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 185,
+   "episode_id": "C1-arms-ucb-ft09-305",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 186,
+   "episode_id": "C1-arms-ucb-ft09-306",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 187,
+   "episode_id": "C1-arms-ucb-ft09-307",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 188,
+   "episode_id": "C1-arms-ucb-ft09-308",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 189,
+   "episode_id": "C1-arms-ucb-ft09-309",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 190,
+   "episode_id": "C1-arms-ucb-ft09-310",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 191,
+   "episode_id": "C1-arms-ucb-ft09-311",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 192,
+   "episode_id": "C1-arms-ucb-ft09-312",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 193,
+   "episode_id": "C1-arms-ucb-ft09-313",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 194,
+   "episode_id": "C1-arms-ucb-ft09-314",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 195,
+   "episode_id": "C1-arms-ucb-ft09-315",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 196,
+   "episode_id": "C1-arms-ucb-ft09-316",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 197,
+   "episode_id": "C1-arms-ucb-ft09-317",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 198,
+   "episode_id": "C1-arms-ucb-ft09-318",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 199,
+   "episode_id": "C1-arms-ucb-ft09-319",
+   "policy": "arms-ucb",
+   "game_id": "ft09",
+   "steps": 1000
+  },
+  {
+   "index": 200,
+   "episode_id": "C1-arms-ucb-ls20-300",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 201,
+   "episode_id": "C1-arms-ucb-ls20-301",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 202,
+   "episode_id": "C1-arms-ucb-ls20-302",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 203,
+   "episode_id": "C1-arms-ucb-ls20-303",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 204,
+   "episode_id": "C1-arms-ucb-ls20-304",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 205,
+   "episode_id": "C1-arms-ucb-ls20-305",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 206,
+   "episode_id": "C1-arms-ucb-ls20-306",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 207,
+   "episode_id": "C1-arms-ucb-ls20-307",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 208,
+   "episode_id": "C1-arms-ucb-ls20-308",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 209,
+   "episode_id": "C1-arms-ucb-ls20-309",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 210,
+   "episode_id": "C1-arms-ucb-ls20-310",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 211,
+   "episode_id": "C1-arms-ucb-ls20-311",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 212,
+   "episode_id": "C1-arms-ucb-ls20-312",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 213,
+   "episode_id": "C1-arms-ucb-ls20-313",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 214,
+   "episode_id": "C1-arms-ucb-ls20-314",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 215,
+   "episode_id": "C1-arms-ucb-ls20-315",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 216,
+   "episode_id": "C1-arms-ucb-ls20-316",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 217,
+   "episode_id": "C1-arms-ucb-ls20-317",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 218,
+   "episode_id": "C1-arms-ucb-ls20-318",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 219,
+   "episode_id": "C1-arms-ucb-ls20-319",
+   "policy": "arms-ucb",
+   "game_id": "ls20",
+   "steps": 1000
+  },
+  {
+   "index": 220,
+   "episode_id": "C1-arms-ucb-s5i5-300",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 221,
+   "episode_id": "C1-arms-ucb-s5i5-301",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 222,
+   "episode_id": "C1-arms-ucb-s5i5-302",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 223,
+   "episode_id": "C1-arms-ucb-s5i5-303",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 224,
+   "episode_id": "C1-arms-ucb-s5i5-304",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 225,
+   "episode_id": "C1-arms-ucb-s5i5-305",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 226,
+   "episode_id": "C1-arms-ucb-s5i5-306",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 227,
+   "episode_id": "C1-arms-ucb-s5i5-307",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 228,
+   "episode_id": "C1-arms-ucb-s5i5-308",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 229,
+   "episode_id": "C1-arms-ucb-s5i5-309",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 230,
+   "episode_id": "C1-arms-ucb-s5i5-310",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 231,
+   "episode_id": "C1-arms-ucb-s5i5-311",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 232,
+   "episode_id": "C1-arms-ucb-s5i5-312",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 233,
+   "episode_id": "C1-arms-ucb-s5i5-313",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 234,
+   "episode_id": "C1-arms-ucb-s5i5-314",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 235,
+   "episode_id": "C1-arms-ucb-s5i5-315",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 236,
+   "episode_id": "C1-arms-ucb-s5i5-316",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 237,
+   "episode_id": "C1-arms-ucb-s5i5-317",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 238,
+   "episode_id": "C1-arms-ucb-s5i5-318",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 239,
+   "episode_id": "C1-arms-ucb-s5i5-319",
+   "policy": "arms-ucb",
+   "game_id": "s5i5",
+   "steps": 1000
+  },
+  {
+   "index": 240,
+   "episode_id": "C1-arms-ucb-sc25-300",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 241,
+   "episode_id": "C1-arms-ucb-sc25-301",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 242,
+   "episode_id": "C1-arms-ucb-sc25-302",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 243,
+   "episode_id": "C1-arms-ucb-sc25-303",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 244,
+   "episode_id": "C1-arms-ucb-sc25-304",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 245,
+   "episode_id": "C1-arms-ucb-sc25-305",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 246,
+   "episode_id": "C1-arms-ucb-sc25-306",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 247,
+   "episode_id": "C1-arms-ucb-sc25-307",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 248,
+   "episode_id": "C1-arms-ucb-sc25-308",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 249,
+   "episode_id": "C1-arms-ucb-sc25-309",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 250,
+   "episode_id": "C1-arms-ucb-sc25-310",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 251,
+   "episode_id": "C1-arms-ucb-sc25-311",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 252,
+   "episode_id": "C1-arms-ucb-sc25-312",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 253,
+   "episode_id": "C1-arms-ucb-sc25-313",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 254,
+   "episode_id": "C1-arms-ucb-sc25-314",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 255,
+   "episode_id": "C1-arms-ucb-sc25-315",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 256,
+   "episode_id": "C1-arms-ucb-sc25-316",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 257,
+   "episode_id": "C1-arms-ucb-sc25-317",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 258,
+   "episode_id": "C1-arms-ucb-sc25-318",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 259,
+   "episode_id": "C1-arms-ucb-sc25-319",
+   "policy": "arms-ucb",
+   "game_id": "sc25",
+   "steps": 1000
+  },
+  {
+   "index": 260,
+   "episode_id": "C1-arms-ucb-sk48-300",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 261,
+   "episode_id": "C1-arms-ucb-sk48-301",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 262,
+   "episode_id": "C1-arms-ucb-sk48-302",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 263,
+   "episode_id": "C1-arms-ucb-sk48-303",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 264,
+   "episode_id": "C1-arms-ucb-sk48-304",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 265,
+   "episode_id": "C1-arms-ucb-sk48-305",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 266,
+   "episode_id": "C1-arms-ucb-sk48-306",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 267,
+   "episode_id": "C1-arms-ucb-sk48-307",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 268,
+   "episode_id": "C1-arms-ucb-sk48-308",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 269,
+   "episode_id": "C1-arms-ucb-sk48-309",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 270,
+   "episode_id": "C1-arms-ucb-sk48-310",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 271,
+   "episode_id": "C1-arms-ucb-sk48-311",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 272,
+   "episode_id": "C1-arms-ucb-sk48-312",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 273,
+   "episode_id": "C1-arms-ucb-sk48-313",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 274,
+   "episode_id": "C1-arms-ucb-sk48-314",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 275,
+   "episode_id": "C1-arms-ucb-sk48-315",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 276,
+   "episode_id": "C1-arms-ucb-sk48-316",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 277,
+   "episode_id": "C1-arms-ucb-sk48-317",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 278,
+   "episode_id": "C1-arms-ucb-sk48-318",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 279,
+   "episode_id": "C1-arms-ucb-sk48-319",
+   "policy": "arms-ucb",
+   "game_id": "sk48",
+   "steps": 1000
+  },
+  {
+   "index": 280,
+   "episode_id": "C1-arms-ucb-tn36-300",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 281,
+   "episode_id": "C1-arms-ucb-tn36-301",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 282,
+   "episode_id": "C1-arms-ucb-tn36-302",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 283,
+   "episode_id": "C1-arms-ucb-tn36-303",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 284,
+   "episode_id": "C1-arms-ucb-tn36-304",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 285,
+   "episode_id": "C1-arms-ucb-tn36-305",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 286,
+   "episode_id": "C1-arms-ucb-tn36-306",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 287,
+   "episode_id": "C1-arms-ucb-tn36-307",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 288,
+   "episode_id": "C1-arms-ucb-tn36-308",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 289,
+   "episode_id": "C1-arms-ucb-tn36-309",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 290,
+   "episode_id": "C1-arms-ucb-tn36-310",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 291,
+   "episode_id": "C1-arms-ucb-tn36-311",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 292,
+   "episode_id": "C1-arms-ucb-tn36-312",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 293,
+   "episode_id": "C1-arms-ucb-tn36-313",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 294,
+   "episode_id": "C1-arms-ucb-tn36-314",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 295,
+   "episode_id": "C1-arms-ucb-tn36-315",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 296,
+   "episode_id": "C1-arms-ucb-tn36-316",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 297,
+   "episode_id": "C1-arms-ucb-tn36-317",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 298,
+   "episode_id": "C1-arms-ucb-tn36-318",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 299,
+   "episode_id": "C1-arms-ucb-tn36-319",
+   "policy": "arms-ucb",
+   "game_id": "tn36",
+   "steps": 1000
+  },
+  {
+   "index": 300,
+   "episode_id": "C1-arms-ucb-tu93-300",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 301,
+   "episode_id": "C1-arms-ucb-tu93-301",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 302,
+   "episode_id": "C1-arms-ucb-tu93-302",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 303,
+   "episode_id": "C1-arms-ucb-tu93-303",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 304,
+   "episode_id": "C1-arms-ucb-tu93-304",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 305,
+   "episode_id": "C1-arms-ucb-tu93-305",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 306,
+   "episode_id": "C1-arms-ucb-tu93-306",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 307,
+   "episode_id": "C1-arms-ucb-tu93-307",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 308,
+   "episode_id": "C1-arms-ucb-tu93-308",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 309,
+   "episode_id": "C1-arms-ucb-tu93-309",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 310,
+   "episode_id": "C1-arms-ucb-tu93-310",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 311,
+   "episode_id": "C1-arms-ucb-tu93-311",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 312,
+   "episode_id": "C1-arms-ucb-tu93-312",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 313,
+   "episode_id": "C1-arms-ucb-tu93-313",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 314,
+   "episode_id": "C1-arms-ucb-tu93-314",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 315,
+   "episode_id": "C1-arms-ucb-tu93-315",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 316,
+   "episode_id": "C1-arms-ucb-tu93-316",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 317,
+   "episode_id": "C1-arms-ucb-tu93-317",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 318,
+   "episode_id": "C1-arms-ucb-tu93-318",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  },
+  {
+   "index": 319,
+   "episode_id": "C1-arms-ucb-tu93-319",
+   "policy": "arms-ucb",
+   "game_id": "tu93",
+   "steps": 1000
+  }
+ ],
+ "rows": 320000
+}

@@ -1,0 +1,30 @@
+{
+  "task": "T-E1b",
+  "gate": "heldout-output",
+  "kind": "command",
+  "attempt": "daad5e95-5b5c-42b1-ace5-170b5f098edf",
+  "command": ".venv\\Scripts\\python.exe experiments/e0_kernel.py --verify-output experiments/build/e1-out-heldout-e4b --cells on-off off-on on-on",
+  "started_at": "2026-09-17T05:08:10.969Z",
+  "observed_at": "2026-09-17T05:08:24.021Z",
+  "exit_code": 1,
+  "signal": null,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Goutham\\AI_Sprint\\portfolio_projects\\project_arc_agi_3\\experiments\\e0_kernel.py\", line 281, in <module>\r\n    raise SystemExit(main())\r\n                     ~~~~^^\r\n  File \"C:\\Goutham\\AI_Sprint\\portfolio_projects\\project_arc_agi_3\\experiments\\e0_kernel.py\", line 263, in main\r\n    verify_output(a.verify_output, a.cells)\r\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Goutham\\AI_Sprint\\portfolio_projects\\project_arc_agi_3\\experiments\\e0_kernel.py\", line 227, in verify_output\r\n    rows = json.loads((out / f\"report_{c}.json\").read_text(encoding=\"utf-8\"))\r\n                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\\Lib\\pathlib\\_local.py\", line 546, in read_text\r\n    return PathBase.read_text(self, encoding, errors, newline)\r\n           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\\Lib\\pathlib\\_abc.py\", line 632, in read_text\r\n    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:\r\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\\Lib\\pathlib\\_local.py\", line 537, in open\r\n    return io.open(self, mode, buffering, encoding, errors, newline)\r\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nFileNotFoundError: [Errno 2] No such file or directory: 'experiments\\\\build\\\\e1-out-heldout-e4b\\\\report_on-off.json'\r\n",
+  "failure": "command-failed",
+  "receipt": null,
+  "revision": {
+    "commit": "e9b0230d002f8b257f7e347571aa3ca6ddafe0e9",
+    "dirty": true
+  },
+  "source_hash": "1991e64cab15ee2956c7728699d68ea0433e494eff752fc039226b7e9070a994",
+  "before_hash": "1991e64cab15ee2956c7728699d68ea0433e494eff752fc039226b7e9070a994",
+  "config_hash": "c9861f9f39e3871b806ba60834b7aedb24d8fc4c8803c1341f118d13b3ee1b7f",
+  "environment": {
+    "node": "v24.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "verifier": "358371454f03eb4fdfd3eda3cb1d18cb1dd8fe9445404bb3d3047267b3977eb9",
+    "variables": {}
+  },
+  "hash": "9989ededcecf2e6109e5c1bad2b8c62457e56ee902e26ba82ec6fcb26074237b"
+}
